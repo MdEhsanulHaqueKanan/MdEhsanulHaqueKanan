@@ -6,7 +6,7 @@ I specialize in building intelligent, data-driven applications. My passion lies 
 
 I am currently available for freelance projects and collaborations. If you have an idea, let's build it together!
 
-- 🔭 **Currently building:** A **Processor Recommendation Engine** to help users select the perfect chip for their smart device needs.
+- 🔭 **Currently building:** A **Processor Recommendation Engine** to help engineers and product teams streamline the hardware selection process for new smart devices.
 - 🌱 **I thrive on diverse challenges:** My expertise covers recommendation systems, time-series classification, and deep learning for computer vision.
 - 🚀 **I deliver production-ready code:** I have hands-on experience with containerization (Docker) and CI/CD, ensuring my applications are scalable and maintainable.
 
