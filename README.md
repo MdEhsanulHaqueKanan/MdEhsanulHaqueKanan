@@ -6,37 +6,26 @@ I specialize in building intelligent, data-driven applications. My passion lies 
 
 I am currently available for freelance projects and collaborations. If you have an idea, let's build it together!
 
-- 🔭 **Currently building:** A **Processor Recommendation Engine** to help engineers and product teams streamline the hardware selection process for new smart devices.
 - 🌱 **I thrive on diverse challenges:** My expertise covers recommendation systems, time-series classification, and deep learning for computer vision.
-- 🚀 **I deliver production-ready code:** I have hands-on experience with containerization (Docker) and CI/CD, ensuring my applications are scalable and maintainable.
-
----
-
-### 🚧 What I'm Currently Building
-
-### 🧠 Processor Recommendation Engine for Smart Devices
-I'm currently developing a **decision-support tool** designed to help engineers and product teams streamline the hardware selection process for new smart devices.
-
-This engine allows technical teams to input specific requirements (e.g., architecture, core configuration) and instantly receive a curated list of processors that meet their criteria. To offer deeper insights, the system is enhanced with machine learning models for:
-*   **Chip Classification:** Predicting a processor's primary function (e.g., SoC, application processor) or its likely designer, providing valuable data for competitive analysis.
-*   **Feature Prediction:** Inferring technical capabilities (e.g., supported wireless protocols) from core architecture alone, aiding in early-stage design when full specifications may be unavailable.
-
-By combining direct recommendations with predictive intelligence, the tool aims to significantly reduce R&D cycles and ensure optimal component selection for any smart device, from IoT sensors to high-performance tablets.
-
-*   **Status:** Currently in the data exploration and feature engineering phase.
-*   **Coming Soon:** A deployed Flask application where engineering teams can find the perfect chip for their next product.
-*   **Core Technologies:** Python, Pandas, Scikit-Learn, Flask.
+- 🚀 **I deliver production-ready code:** I have hands-on experience with containerization (Docker) and deploying scalable, real-world applications.
 
 ---
 
 ### ✨ Featured Projects
 
-Here are some of the projects I'm most proud of. They demonstrate my ability to handle the entire machine learning lifecycle.
+Here are some of the projects I'm most proud of. They demonstrate my ability to handle the entire machine learning lifecycle, from idea to deployment.
+
+### 🤖 Processor Recommendation & Analysis Engine
+An end-to-end ML application that showcases the full development lifecycle: from data analysis and model training to building a containerized Flask API and deploying it to the cloud. This project demonstrates key MLOps practices for serving a model in a scalable and reliable production environment.
+
+*   **Highlights:** Full-stack development, deployment with Docker and Gunicorn, and memory optimization for production servers (`--preload`).
+*   **Tech Stack:** Python, Flask, Scikit-Learn, Pandas, Docker, Gunicorn, Render.
+*   **[➡️ Live Demo](https://processor-recom-engine.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
 
 ### 🌦️ Seattle Weather Classifier: A Time-Series ML Application
 An end-to-end project that predicts daily weather conditions in Seattle. This showcases a complete ML workflow, from rigorous feature engineering on time-series data to deployment as an interactive web app.
 
-*   **Highlights:** Advanced time-series feature engineering (lags, cyclical features), detailed model comparison, and a fully containerized deployment with CI/CD on Render.
+*   **Highlights:** Advanced time-series feature engineering (lags, cyclical features), detailed model comparison, and a fully containerized deployment.
 *   **Tech Stack:** Python, Flask, Scikit-Learn, Pandas, Docker, Render.
 *   **[➡️ Live Demo](https://flask-ml-weather-prediction.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/weather-prediction-machine-learning-flask-app)**
 
