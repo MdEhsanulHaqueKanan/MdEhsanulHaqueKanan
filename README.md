@@ -18,7 +18,7 @@ Here are some of the projects I'm most proud of. They demonstrate my ability to 
 ### 🤖 Processor Recommendation & Analysis Engine
 An end-to-end ML application that showcases the full development lifecycle: from data analysis and model training to building a containerized Flask API and deploying it to the cloud. This project demonstrates key MLOps practices for serving a model in a scalable and reliable production environment.
 
-*   **Highlights:** Full-stack development, deployment with Docker and Gunicorn, and memory optimization for production servers (`--preload`).
+*   **Highlights:** Full-stack development, deployment with Docker and Gunicorn, and memory optimization for production servers.
 *   **Tech Stack:** Python, Flask, Scikit-Learn, Pandas, Docker, Gunicorn, Render.
 *   **[➡️ Live Demo](https://processor-recom-engine.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
 
