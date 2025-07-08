@@ -1,19 +1,24 @@
 # Hi, I'm Ehsanul. 👋
 
-## End-to-End Machine Learning Engineer | From Prototype to Production
+## End-to-End Machine Learning Engineer | NLP, MLOps, & Deep Learning
 
-I specialize in building intelligent, data-driven applications. My passion lies in taking machine learning concepts from initial exploratory analysis all the way to deployed, interactive web applications that solve real-world problems.
+I build intelligent, data-driven applications from prototype to production. My passion lies in taking complex machine learning concepts—from Natural Language Processing to Computer Vision—and engineering them into deployed, containerized, and scalable web applications that solve real-world problems.
 
-I am currently available for freelance projects and collaborations. If you have an idea, let's build it together!
-
-- 🌱 **I thrive on diverse challenges:** My expertise covers recommendation systems, time-series classification, and deep learning for computer vision.
-- 🚀 **I deliver production-ready code:** I have hands-on experience with containerization (Docker) and deploying scalable, real-world applications.
+- 🧠 **My specialization is in End-to-End NLP & MLOps:** I excel at deploying resource-intensive models by optimizing for production constraints.
+- 🚀 **I deliver production-ready solutions:** I have hands-on experience with the full lifecycle: data analysis, model development, containerization (Docker), cloud deployment (Render), and production troubleshooting.
 
 ---
 
 ### ✨ Featured Projects
 
-Here are some of the projects I'm most proud of. They demonstrate my ability to handle the entire machine learning lifecycle, from idea to deployment.
+Here are some of the projects I'm most proud of. They demonstrate my ability to handle the entire machine learning lifecycle, from a Jupyter Notebook to a live, user-facing application.
+
+### 🧠 NLP Disease Diagnosis System (My Latest Work)
+A full-stack, end-to-end NLP application that assists users in identifying potential diseases from natural language symptoms. This project showcases advanced MLOps skills, including model optimization for production environments and debugging live deployment issues. The deployed version uses a memory-efficient Sentence-Transformer model to run reliably on a resource-constrained server.
+
+*   **Highlights:** Solved real-world deployment challenges, including "Out of Memory" errors by making a pragmatic engineering trade-off between model size and performance. Containerized with Docker for reproducible deployment.
+*   **Tech Stack:** Python, Flask, Sentence-Transformers, Scikit-Learn, Docker, Gunicorn, Render.
+*   **[➡️ Live Demo](https://disease-diagnosis-system.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/disease-diagnosis-system)**
 
 ### 🤖 Processor Recommendation & Analysis Engine
 An end-to-end ML application that showcases the full development lifecycle: from data analysis and model training to building a containerized Flask API and deploying it to the cloud. This project demonstrates key MLOps practices for serving a model in a scalable and reliable production environment.
@@ -67,13 +72,13 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
     <tr>
       <td width="150px" valign="middle"><strong>Backend & API</strong></td>
       <td width="800px" valign="middle">
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,flask" /></a>
+        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,flask,gunicorn" /></a>
       </td>
     </tr>
     <tr>
-      <td valign="middle"><strong>Data Science</strong></td>
+      <td valign="middle"><strong>Data Science & NLP</strong></td>
       <td valign="middle">
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pandas,numpy,scikitlearn" /></a>
+        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pandas,numpy,scikitlearn,jupyter" /></a>
       </td>
     </tr>
     <tr>
@@ -83,9 +88,9 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
       </td>
     </tr>
     <tr>
-      <td valign="middle"><strong>Deployment</strong></td>
+      <td valign="middle"><strong>Deployment (MLOps)</strong></td>
       <td valign="middle">
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,git,githubactions" /></a>
+        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,git,github,githubactions" /></a>
       </td>
     </tr>
   </tbody>
