@@ -27,6 +27,21 @@ A full-stack NLP application that assists users in identifying potential disease
 *   **Tech Stack:** Python, Flask, Sentence-Transformers, Scikit-Learn, Docker, Gunicorn, Render.
 *   **[➡️ Live Demo](https://disease-diagnosis-system.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/disease-diagnosis-system)**
 
+*(Note: The server may spin down after inactivity. Please allow 3-6 mins for the app to "wake up" on your first visit.)*
+
+---
+
+### 🧠 Processor Recommendation & Analysis Engine
+An end-to-end machine learning application that combines rule-based filtering and ML-powered predictions to assist in processor selection for smart devices. This project highlights a full ML lifecycle, from data engineering and model training to robust API development, containerization, and cloud deployment, solving real-world production challenges.
+
+* **Highlights:** Engineered a **full-stack ML application** with both rule-based and **multi-class/multi-label classification** for diverse prediction tasks. Solved critical **MLOps challenges** like performance optimization (`Gunicorn --preload`) and static file serving (`WhiteNoise`) for efficient cloud deployment on resource-constrained environments. Ensured reproducible deployment with **Docker** and a clean **Flask API** architecture.
+* **Tech Stack:** Python, Flask, Scikit-Learn, Pandas, Docker, Gunicorn, WhiteNoise, Render.
+* **[➡️ Live Demo](https://processor-recommendation-engine.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
+
+*(Note: The server may spin down after inactivity. Please allow 3-6 mins for the app to "wake up" on your first visit.)*
+
+---
+
 ### 🌦️ Seattle Weather Classifier: A Time-Series ML Application
 An end-to-end project that predicts daily weather conditions in Seattle. This showcases a complete ML workflow, from rigorous feature engineering on time-series data to deployment as an interactive web app.
 
