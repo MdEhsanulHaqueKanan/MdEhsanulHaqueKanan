@@ -16,9 +16,25 @@ This section highlights a significant independent project where I've deep-dived 
 ### 🏭 Robust & Interpretable Predictive Maintenance System (PdM)
 A comprehensive, end-to-end Predictive Maintenance (PdM) system designed for evolving industrial environments. This project showcases an industry-standard approach to forecasting equipment failures, explaining model decisions, and adapting to changing operational conditions. It embodies the full Machine Learning Operations (MLOps) lifecycle, from data processing and model training to API development, dynamic web visualization, automated testing, and containerized deployment.
 
-* **Highlights:** Implemented **Dual Prediction Capabilities** (Remaining Useful Life (RUL) Prediction & Fault Classification). Features a **Dynamic & Prioritized Dashboard** for real-time asset monitoring. Integrated **Explainable AI (XAI) with SHAP** for transparent and actionable predictions. Demonstrates **Model Performance Monitoring & Concept Drift Detection** to ensure system robustness in evolving industrial settings. Built with **Automated ML Pipelines**, a **RESTful API Service**, and **Containerized Deployment with Docker**.
-* **Key Skills Demonstrated:** End-to-End MLOps Lifecycle, Machine Learning Research, Data Engineering, Model Development & Deployment, Explainable AI (XAI), Time-Series Analysis, Containerization, Automated Testing.
-* **Tech Stack:** Python, Flask, scikit-learn, XGBoost, LightGBM, SHAP, Imbalanced-learn, Pandas, Plotly.js, Pico.css, Pytest, Docker.
+#### **Highlights:** 
+* Implemented **Dual Prediction Capabilities** (Remaining Useful Life (RUL) Prediction & Fault Classification). 
+* Features a **Dynamic & Prioritized Dashboard** for real-time asset monitoring. Integrated **Explainable AI (XAI) with SHAP** for transparent and actionable predictions. 
+* Demonstrates **Model Performance Monitoring & Concept Drift Detection** to ensure system robustness in evolving industrial settings. 
+* Built with **Automated ML Pipelines**, a **RESTful API Service**, and **Containerized Deployment with Docker**.
+
+#### **Key Quantified Impact:**
+
+*   **RUL Prediction Accuracy:** Achieved **RMSE of 15.82 cycles (R² 0.85)** for Remaining Useful Life predictions on unseen turbofan engine data.
+*   **Fault Detection Precision:** Ensured **up to 95% Recall for critical fault types** in datasets with **less than 4% minority class samples**.
+*   **Dashboard Performance:** **Reduced dashboard load time from >5 minutes to <5 seconds** by implementing intelligent, on-demand XAI generation.
+*   **Automated Reliability:** Validated API and model robustness with **automated `pytest` unit tests covering 2 critical endpoints**.
+*   **Data Scale Handled:** Processed **over 20,000 time-series RUL records** and **10,000 classification records** from diverse industrial datasets. 
+
+#### Key Skills Demonstrated: 
+End-to-End MLOps Lifecycle, Machine Learning Research, Data Engineering, Model Development & Deployment, Explainable AI (XAI), Time-Series Analysis, Containerization, Automated Testing.
+
+#### Tech Stack: 
+Python, Flask, scikit-learn, XGBoost, LightGBM, SHAP, Imbalanced-learn, Pandas, Plotly.js, Pico.css, Pytest, Docker.
 * **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/robust-pdm-system)**
 
 ---
