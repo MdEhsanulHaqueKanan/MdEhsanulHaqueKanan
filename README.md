@@ -9,6 +9,20 @@ I build intelligent, data-driven applications from prototype to production. My p
 
 ---
 
+## 🔬 Independent Research & Development
+
+This section highlights a significant independent project where I've deep-dived into a complex domain, applying advanced AI/ML and MLOps principles from research to deployment. It demonstrates my ability to conceptualize, research, and execute a comprehensive, industry-standard AI solution from the ground up.
+
+### 🏭 Robust & Interpretable Predictive Maintenance System (PdM)
+A comprehensive, end-to-end Predictive Maintenance (PdM) system designed for evolving industrial environments. This project showcases an industry-standard approach to forecasting equipment failures, explaining model decisions, and adapting to changing operational conditions. It embodies the full Machine Learning Operations (MLOps) lifecycle, from data processing and model training to API development, dynamic web visualization, automated testing, and containerized deployment.
+
+* **Highlights:** Implemented **Dual Prediction Capabilities** (Remaining Useful Life (RUL) Prediction & Fault Classification). Features a **Dynamic & Prioritized Dashboard** for real-time asset monitoring. Integrated **Explainable AI (XAI) with SHAP** for transparent and actionable predictions. Demonstrates **Model Performance Monitoring & Concept Drift Detection** to ensure system robustness in evolving industrial settings. Built with **Automated ML Pipelines**, a **RESTful API Service**, and **Containerized Deployment with Docker**.
+* **Key Skills Demonstrated:** End-to-End MLOps Lifecycle, Machine Learning Research, Data Engineering, Model Development & Deployment, Explainable AI (XAI), Time-Series Analysis, Containerization, Automated Testing.
+* **Tech Stack:** Python, Flask, scikit-learn, XGBoost, LightGBM, SHAP, Imbalanced-learn, Pandas, Plotly.js, Pico.css, Pytest, Docker.
+* **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/robust-pdm-system)**
+
+---
+
 ### ✨ Featured Projects
 
 Here are some of the projects I'm most proud of. They demonstrate my ability to handle the entire AI/ML lifecycle, from a Jupyter Notebook to a live, user-facing application.
