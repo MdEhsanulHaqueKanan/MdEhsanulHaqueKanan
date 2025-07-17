@@ -93,10 +93,10 @@ A deep learning-powered web app that can identify different species of house pla
 ---
 
 ### ✈️ Drone Detection System
-A deep learning application built to detect drones in images, showcasing advanced computer vision techniques.
+An end-to-end computer vision system that trains a Faster R-CNN model for object detection and deploys it as an interactive Flask web application. This project demonstrates a complete workflow from a research-oriented Kaggle notebook to a user-facing, production-ready application.
 
-*   **Highlights:** Leverages `Albumentations` for powerful image augmentation and a PyTorch model for object detection.
-*   **Tech Stack:** Python, Flask, PyTorch, Torchvision, Albumentations.
+*   **Highlights:** Achieved a low final test loss of **0.0638**, indicating strong model convergence and accuracy. Successfully transitioned a complex deep learning pipeline from a Kaggle research notebook to a fully interactive Flask app. Engineered a custom visualization pipeline using **Pillow** for clear, professional-grade bounding box and label rendering, significantly improving on default library outputs.
+*   **Tech Stack:** Python, Flask, PyTorch, Torchvision, Albumentations, Pillow, NumPy.
 *   **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/drone-detection-deep-learning-flask-app)**
 
 ---
