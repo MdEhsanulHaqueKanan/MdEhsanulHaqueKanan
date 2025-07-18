@@ -86,7 +86,7 @@ A machine learning application designed to predict equipment failure. The model 
 ### 🌿 House Plant Species Identifier
 A deep learning-powered web app that can identify different species of house plants from an uploaded image.
 
-*   **Highlights:** Utilizes a pre-trained computer vision model for transfer learning, deployed in a user-friendly Flask application.
+*   **Highlights:** Achieved **82% overall accuracy** (with a weighted F1-score of 0.82) on 47 plant species using a pre-trained computer vision model for transfer learning, deployed in a user-friendly Flask application.. 
 *   **Tech Stack:** Python, Flask, PyTorch, Torchvision, Pillow.
 *   **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/house-plant-species-identifier-machine-learning-flask-app)**
 
