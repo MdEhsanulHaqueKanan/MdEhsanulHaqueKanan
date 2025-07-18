@@ -34,7 +34,7 @@ Python, Flask, scikit-learn, XGBoost, LightGBM, SHAP, Imbalanced-learn, Pandas, 
 
 ### ✨ Featured Projects
 
-Here are some of the projects I'm most proud of. They demonstrate my ability to handle the entire AI/ML lifecycle, from a Jupyter Notebook to a live, user-facing application.
+Here are some of the projects I'm most proud of. They demonstrate my ability to handle the entire AI/ML lifecycle, from a Jupyter Notebook to a live, user-friendly application.
 
 ### 🧠 AI Research Assistant (with Local LLM & RAG)
 A full-stack, end-to-end AI agent that answers complex questions with up-to-date, sourced information. This project demonstrates a deep understanding of modern AI agent architecture, running a 100% private and cost-free stack with a local LLM (Phi-3) and a robust, orchestrated RAG workflow.
