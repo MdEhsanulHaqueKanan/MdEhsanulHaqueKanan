@@ -3,9 +3,12 @@
 
 I build intelligent, data-driven applications from prototype to production. My passion lies in taking complex AI concepts—from Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) to traditional NLP—and engineering them into deployed, containerized, and scalable applications that solve real-world problems.
 
-- 🧠 **My specialization is in End-to-End AI & MLOps:** I excel at building and deploying complex AI systems, including RAG pipelines and AI agents, by optimizing for production constraints like cost, privacy, and performance.
-- 🚀 **I deliver production-ready solutions:** I have hands-on experience with the full lifecycle: from model selection and prompt engineering to containerization (Docker), cloud deployment, and local inference with tools like Ollama. I'm adept at working across diverse environments and time zones.
-- 🌐 **Fluent in English:** Duolingo English Test (DET) score of 135/160 (equivalent to IELTS 7.0).
+🧠 **My specialization is in End-to-End AI & MLOps:** I excel at building and deploying complex AI systems, including RAG pipelines and AI agents, by optimizing for production constraints like cost, privacy, and performance.
+
+🚀 **I deliver production-ready solutions:** I have hands-on experience with the full lifecycle: from model selection and prompt engineering to containerization (Docker), cloud deployment, and local inference with tools like Ollama. I'm adept at working across diverse environments and time zones.
+
+🌐 **Fluent in English:** Duolingo English Test (DET) score of 135/160 (equivalent to IELTS 7.0).
+
 
 ---
 
@@ -31,7 +34,8 @@ End-to-End MLOps Lifecycle, Machine Learning Research, Data Engineering, Model D
 
 #### Tech Stack:
 Python, Flask, scikit-learn, XGBoost, LightGBM, SHAP, Imbalanced-learn, Pandas, Plotly.js, Pico.css, Pytest, Docker.
-* **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/robust-pdm-system)**
+
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/robust-pdm-system)**
 
 ---
 
@@ -47,7 +51,10 @@ A full-stack, end-to-end AI agent that answers complex questions with up-to-date
 * Reduced required LLM calls per query by **over 80%**, leading to **100% cost reduction** via local-first inference.
 #### Tech Stack:
 Python, LangChain, Streamlit, Ollama, Phi-3, DuckDuckGo Search.
-* **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/ai-research-assistant)** *(Note: This project runs locally to ensure 100% data privacy and has no live deployment.)*
+
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/ai-research-assistant)** 
+
+*(Note: This project runs locally to ensure 100% data privacy and has no live deployment.)*
 
 ### 🤖 NLP Disease Diagnosis System
 A full-stack NLP application that assists users in identifying potential diseases from natural language symptoms. This project showcases advanced MLOps skills, including model optimization for production environments and debugging live deployment issues.
@@ -57,7 +64,8 @@ A full-stack NLP application that assists users in identifying potential disease
 * Achieved **sub-second API response times** by pre-loading model artifacts and designed a multi-stage **Dockerfile** for portable deployment.
 #### Tech Stack:
 Python, Flask, Sentence-Transformers, Scikit-Learn, Docker, Gunicorn, Render.
-* **[➡️ Live Demo](https://disease-diagnosis-system.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/disease-diagnosis-system)**
+
+**[➡️ Live Demo](https://disease-diagnosis-system.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/disease-diagnosis-system)**
 
 *(Note: The server may spin down after inactivity. Please allow 3-6 mins for the app to "wake up" on your first visit.)*
 
@@ -71,7 +79,8 @@ An end-to-end machine learning application that combines rule-based filtering an
 * Architected and deployed a modular Flask app serving **2 distinct ML models**, containerized with **Docker**, and capable of handling **1,000+ unique processors**.
 #### Tech Stack:
 Python, Flask, Scikit-Learn, Pandas, Docker, Gunicorn, WhiteNoise, Render.
-* **[➡️ Live Demo](https://processor-recommendation-engine.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
+
+**[➡️ Live Demo](https://processor-recommendation-engine.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
 
 *(Note: The server may spin down after inactivity. Please allow 3-6 mins for the app to "wake up" on your first visit.)*
 
@@ -84,7 +93,8 @@ An end-to-end project that predicts daily weather conditions in Seattle. This sh
 * Advanced time-series feature engineering, detailed model comparison, and a fully containerized deployment.
 #### Tech Stack:
 Python, Flask, Scikit-Learn, Pandas, Docker, Render.
-* **[➡️ Live Demo](https://flask-ml-weather-prediction.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/weather-prediction-machine-learning-flask-app)**
+
+**[➡️ Live Demo](https://flask-ml-weather-prediction.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/weather-prediction-machine-learning-flask-app)**
 
 ---
 
@@ -97,7 +107,8 @@ A full-stack machine learning application designed to predict equipment failure 
 * Successfully addressed the core challenge of rare failure events to reach a **Macro F1-Score of 0.41**, demonstrating a robust and practical approach to real-world classification.
 #### Tech Stack:
 Python, Flask, Scikit-Learn, Pandas, Imbalanced-learn, Joblib.
-* **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/predictive-maintenance-machine-learning-flask-app)**
+
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/predictive-maintenance-machine-learning-flask-app)**
 
 ---
 
@@ -108,7 +119,8 @@ A deep learning-powered web app that can identify different species of house pla
 * Achieved **82% overall accuracy** (with a weighted F1-score of 0.82) on 47 plant species using a pre-trained computer vision model for transfer learning, deployed in a user-friendly Flask application.
 #### Tech Stack:
 Python, Flask, PyTorch, Torchvision, Pillow.
-* **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/house-plant-species-identifier-machine-learning-flask-app)**
+
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/house-plant-species-identifier-machine-learning-flask-app)**
 
 ---
 
@@ -121,7 +133,8 @@ An end-to-end computer vision system that trains a Faster R-CNN model for object
 * Engineered a custom visualization pipeline using **Pillow** for clear, professional-grade bounding box and label rendering, significantly improving on default library outputs.
 #### Tech Stack:
 Python, Flask, PyTorch, Torchvision, Albumentations, Pillow, NumPy.
-* **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/drone-detection-deep-learning-flask-app)**
+
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/drone-detection-deep-learning-flask-app)**
 
 ---
 
