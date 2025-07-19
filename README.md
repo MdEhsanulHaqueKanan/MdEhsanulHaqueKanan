@@ -74,11 +74,12 @@ An end-to-end project that predicts daily weather conditions in Seattle. This sh
 
 ---
 
-### 🏭 Predictive Maintenance Classifier
-A machine learning application designed to predict equipment failure. The model handles imbalanced datasets to ensure accurate real-world performance.
+### 🔧 Predictive Maintenance Classifier
 
-*   **Highlights:** Tackles the class imbalance problem using `imbalanced-learn`, providing a more robust and realistic predictive model.
-*   **Tech Stack:** Python, Flask, Scikit-Learn, Pandas, Imbalanced-learn.
+A full-stack machine learning application designed to predict equipment failure before it occurs. This project showcases a complete MLOps workflow, from data analysis and feature engineering on an imbalanced dataset to deployment as an interactive Flask web app.
+
+*   **Highlights:** Achieved **93% overall accuracy** by training a Random Forest model on a highly imbalanced, real-world dataset. Successfully addressed the core challenge of rare failure events to reach a **Macro F1-Score of 0.41**, demonstrating a robust and practical approach to real-world classification.
+*   **Tech Stack:** Python, Flask, Scikit-Learn, Pandas, Imbalanced-learn, Joblib.
 *   **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/predictive-maintenance-machine-learning-flask-app)**
 
 ---
