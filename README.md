@@ -23,11 +23,8 @@ This section highlights a significant independent project where I've deep-dived 
 A comprehensive, end-to-end Predictive Maintenance (PdM) system designed for evolving industrial environments. This project showcases an industry-standard approach to forecasting equipment failures, explaining model decisions, and adapting to changing operational conditions. It embodies the full Machine Learning Operations (MLOps) lifecycle, from data processing and model training to API development, dynamic web visualization, automated testing, and containerized deployment.
 
 #### Highlights:
-* Achieved **Root Mean Squared Error (RMSE) of 15.82 cycles (R² 0.85)** for Remaining Useful Life predictions and **up to 95% Recall for critical fault types** on highly imbalanced datasets.
-* Reduced dashboard load time from **over 5 minutes to under 5 seconds** by implementing intelligent, on-demand XAI generation.
-* Ensured API and model reliability through a comprehensive suite of **automated `pytest` unit tests**, maintaining robust system behavior.
-* Successfully containerized the entire multi-service application with Docker, enabling seamless and consistent deployment across diverse environments.
-* Processed **over 20,000 time-series RUL records** and **10,000 classification records**.
+* Achieved **RMSE 15.82 (R² 0.85)** and **95% Recall with XAI**, significantly reducing dashboard load time from **5 mins to under 5 seconds**.
+* Implemented a full **MLOps lifecycle** including **automated `pytest`** and **Docker** containerization for robust, production-ready deployment.
 
 #### Key Skills Demonstrated:
 End-to-End MLOps Lifecycle, Machine Learning Research, Data Engineering, Model Development & Deployment, Explainable AI (XAI), Time-Series Analysis, Containerization, Automated Testing.
@@ -46,9 +43,8 @@ These projects highlight my expertise across the entire AI/ML lifecycle, from in
 A full-stack, end-to-end AI agent that answers complex questions with up-to-date, sourced information. This project demonstrates a deep understanding of modern AI agent architecture, running a 100% private and cost-free stack with a local LLM (Phi-3) and a robust, orchestrated RAG workflow.
 
 #### Highlights:
-* Re-architected the system to achieve a **100% task success rate on complex queries (from 0%)**.
-* Reduced required LLM calls per query by **over 80% (from 5+ to just 1)**, leading to a **100% cost reduction** via local-first inference.
-* Optimized performance, achieving a **67% reduction in response time** (from ~6 mins to ~2 mins) with a smaller model.
+* Re-architected the system to achieve a **100% task success rate** and **67% faster response** for complex queries.
+* Reduced required LLM calls per query by **over 80%**, leading to **100% cost reduction** via local-first inference.
 #### Tech Stack:
 Python, LangChain, Streamlit, Ollama, Phi-3, DuckDuckGo Search.
 * **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/ai-research-assistant)** *(Note: This project runs locally to ensure 100% data privacy and has no live deployment.)*
@@ -57,10 +53,8 @@ Python, LangChain, Streamlit, Ollama, Phi-3, DuckDuckGo Search.
 A full-stack NLP application that assists users in identifying potential diseases from natural language symptoms. This project showcases advanced MLOps skills, including model optimization for production environments and debugging live deployment issues.
 
 #### Highlights:
-* Reduced core model's memory footprint by **~75% (from 90MB to 22MB)** to enable successful deployment on a resource-constrained **512MB RAM** cloud server.
-* Engineered for **100% cost-free infrastructure** (Render's free tier).
-* Achieved **sub-second API response times** for real-time predictions by pre-loading model artifacts.
-* Designed a multi-stage `Dockerfile` for lightweight, portable deployment.
+* Optimized model memory by **~75% (to 22MB)** for **512MB RAM** cloud deployment, achieving **100% cost-free** infrastructure.
+* Achieved **sub-second API response times** by pre-loading model artifacts and designed a multi-stage **Dockerfile** for portable deployment.
 #### Tech Stack:
 Python, Flask, Sentence-Transformers, Scikit-Learn, Docker, Gunicorn, Render.
 * **[➡️ Live Demo](https://disease-diagnosis-system.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/disease-diagnosis-system)**
@@ -73,10 +67,8 @@ Python, Flask, Sentence-Transformers, Scikit-Learn, Docker, Gunicorn, Render.
 An end-to-end machine learning application that combines rule-based filtering and ML-powered predictions to assist in processor selection for smart devices. This project highlights a full ML lifecycle, from data engineering and model training to robust API development, containerization, and cloud deployment, solving real-world production challenges.
 
 #### Highlights:
-* Developed a multi-class classification model achieving **92.7% accuracy** (lifted by **2.6%** through hyperparameter tuning).
-* Engineered **9 new, structured features** from raw text for enhanced model performance.
-* Architected and deployed a modular Flask application serving **2 distinct ML models** via **2 primary API endpoints**, containerized with Docker.
-* Successfully processed **over 1,000 unique processors**, demonstrating scalable data handling.
+* Developed a multi-class classification model achieving **92.7% accuracy** (with **2.6% lift**) via **9 new features** engineered from raw text.
+* Architected and deployed a modular Flask app serving **2 distinct ML models**, containerized with **Docker**, and capable of handling **1,000+ unique processors**.
 #### Tech Stack:
 Python, Flask, Scikit-Learn, Pandas, Docker, Gunicorn, WhiteNoise, Render.
 * **[➡️ Live Demo](https://processor-recommendation-engine.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
@@ -166,6 +158,21 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
       <td valign="middle"><strong>MLOps & Deployment</strong></td>
       <td valign="middle">
         <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,git,github,githubactions" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Cloud Platforms</strong></td>
+      <td valign="middle">
+        <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
+        <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" /> (Familiar with S3, EC2)
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Remote Collaboration</strong></td>
+      <td valign="middle">
+        <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack" />
+        <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white" alt="Zoom" />
+        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git" /></a>
       </td>
     </tr>
   </tbody>
