@@ -71,6 +71,21 @@ Python, Flask, Sentence-Transformers, Scikit-Learn, Docker, Gunicorn, Render.
 
 ---
 
+### ☁️ AWS Serverless YouTube Popularity Predictor
+A complete, end-to-end MLOps pipeline on AWS that trains a model and deploys it as a scalable, cost-effective, and fully serverless API. This project demonstrates a deep, practical understanding of modern cloud architecture for machine learning.
+
+#### Highlights:
+*   Engineered a **zero-cost** prediction infrastructure using the **AWS Always Free Tier** (Lambda, API Gateway, S3).
+*   Built a full **CI/CD pipeline with AWS CodeBuild and GitHub** to automatically build and deploy a Lambda-compatible Docker container from source code.
+*   Orchestrated model training as a one-off, containerized batch job using **AWS ECS Fargate** for maximum cost-efficiency.
+
+#### Tech Stack:
+AWS (Lambda, API Gateway, CodeBuild, ECS Fargate, S3, ECR, IAM, CloudWatch), Docker, Python, Scikit-Learn, Pandas.
+
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/aws-serverless-youtube-predictor)**
+
+---
+
 ### 🧠 Processor Recommendation & Analysis Engine
 An end-to-end machine learning application that combines rule-based filtering and ML-powered predictions to assist in processor selection for smart devices. This project highlights a full ML lifecycle, from data engineering and model training to robust API development, containerization, and cloud deployment, solving real-world production challenges.
 
