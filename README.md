@@ -43,6 +43,21 @@ Python, Flask, scikit-learn, XGBoost, LightGBM, SHAP, Imbalanced-learn, Pandas, 
 
 These projects highlight my expertise across the entire AI/ML lifecycle, from initial concept to deployed, user-friendly applications.
 
+### ☁️ AWS Serverless YouTube Popularity Predictor
+A complete, end-to-end MLOps pipeline on AWS that trains a model and deploys it as a scalable, cost-effective, and fully serverless API. This project demonstrates a deep, practical understanding of modern cloud architecture for machine learning.
+
+#### Highlights:
+*   Engineered a **zero-cost** prediction infrastructure using the **AWS Always Free Tier** (Lambda, API Gateway, S3).
+*   Built a full **CI/CD pipeline with AWS CodeBuild and GitHub** to automatically build and deploy a Lambda-compatible Docker container from source code.
+*   Orchestrated model training as a one-off, containerized batch job using **AWS ECS Fargate** for maximum cost-efficiency.
+
+#### Tech Stack:
+AWS (Lambda, API Gateway, CodeBuild, ECS Fargate, S3, ECR, IAM, CloudWatch), Docker, Python, Scikit-Learn, Pandas.
+
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/aws-serverless-youtube-predictor)**
+
+---
+
 ### 🧠 AI Research Assistant (with Local LLM & RAG)
 A full-stack, end-to-end AI agent that answers complex questions with up-to-date, sourced information. This project demonstrates a deep understanding of modern AI agent architecture, running a 100% private and cost-free stack with a local LLM (Phi-3) and a robust, orchestrated RAG workflow.
 
@@ -56,6 +71,8 @@ Python, LangChain, Streamlit, Ollama, Phi-3, DuckDuckGo Search.
 
 *(Note: This project runs locally to ensure 100% data privacy and has no live deployment.)*
 
+---
+
 ### 🤖 NLP Disease Diagnosis System
 A full-stack NLP application that assists users in identifying potential diseases from natural language symptoms. This project showcases advanced MLOps skills, including model optimization for production environments and debugging live deployment issues.
 
@@ -68,21 +85,6 @@ Python, Flask, Sentence-Transformers, Scikit-Learn, Docker, Gunicorn, Render.
 **[➡️ Live Demo](https://disease-diagnosis-system.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/disease-diagnosis-system)**
 
 *(Note: The server may spin down after inactivity. Please allow 3-6 mins for the app to "wake up" on your first visit.)*
-
----
-
-### ☁️ AWS Serverless YouTube Popularity Predictor
-A complete, end-to-end MLOps pipeline on AWS that trains a model and deploys it as a scalable, cost-effective, and fully serverless API. This project demonstrates a deep, practical understanding of modern cloud architecture for machine learning.
-
-#### Highlights:
-*   Engineered a **zero-cost** prediction infrastructure using the **AWS Always Free Tier** (Lambda, API Gateway, S3).
-*   Built a full **CI/CD pipeline with AWS CodeBuild and GitHub** to automatically build and deploy a Lambda-compatible Docker container from source code.
-*   Orchestrated model training as a one-off, containerized batch job using **AWS ECS Fargate** for maximum cost-efficiency.
-
-#### Tech Stack:
-AWS (Lambda, API Gateway, CodeBuild, ECS Fargate, S3, ECR, IAM, CloudWatch), Docker, Python, Scikit-Learn, Pandas.
-
-**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/aws-serverless-youtube-predictor)**
 
 ---
 
@@ -158,52 +160,52 @@ Python, Flask, PyTorch, Torchvision, Albumentations, Pillow, NumPy.
 My toolkit is built on a foundation of robust, industry-standard technologies to deliver high-performance applications.
 
 <table>
-  <tbody>
-    <tr>
-      <td width="150px" valign="middle"><strong>AI & LLM Tooling</strong></td>
-      <td width="800px" valign="middle">
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn" /></a>
-        <img src="https://img.shields.io/badge/LangChain-white?style=for-the-badge&logo=langchain" alt="LangChain" />
-        <img src="https://img.shields.io/badge/Ollama-grey?style=for-the-badge&logo=ollama" alt="Ollama" />
-      </td>
-    </tr>
-    <tr>
-      <td valign="middle"><strong>Backend & UI</strong></td>
-      <td valign="middle">
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,flask,gunicorn" /></a>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit" alt="Streamlit" />
-      </td>
-    </tr>
-    <tr>
-      <td valign="middle"><strong>Data Science</strong></td>
-      <td valign="middle">
-        <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-        <img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-        <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
-      </td>
-    </tr>
-    <tr>
-      <td valign="middle"><strong>MLOps & Deployment</strong></td>
-      <td valign="middle">
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,git,github,githubactions" /></a>
-      </td>
-    </tr>
-    <tr>
-      <td valign="middle"><strong>Cloud Platforms</strong></td>
-      <td valign="middle">
-        <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
-        <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" /> (Lambda, API Gateway, CodeBuild, ECS Fargate, S3, ECR, IAM)
-      </td>
-    </tr>
-    <tr>
-      <td valign="middle"><strong>Remote Collaboration</strong></td>
-      <td valign="middle">
-        <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack" />
-        <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white" alt="Zoom" />
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git" /></a>
-      </td>
-    </tr>
-  </tbody>
+  <tbody>
+    <tr>
+      <td width="150px" valign="middle"><strong>AI & LLM Tooling</strong></td>
+      <td width="800px" valign="middle">
+        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn" /></a>
+        <img src="https://img.shields.io/badge/LangChain-white?style=for-the-badge&logo=langchain" alt="LangChain" />
+        <img src="https://img.shields.io/badge/Ollama-grey?style=for-the-badge&logo=ollama" alt="Ollama" />
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Backend & UI</strong></td>
+      <td valign="middle">
+        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,flask,gunicorn" /></a>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit" alt="Streamlit" />
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Data Science</strong></td>
+      <td valign="middle">
+        <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+        <img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+        <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>MLOps & Deployment</strong></td>
+      <td valign="middle">
+        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,git,github,githubactions" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Cloud Platforms</strong></td>
+      <td valign="middle">
+        <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
+        <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" /> (Lambda, API Gateway, CodeBuild, ECS Fargate, S3, ECR, IAM, CloudWatch)
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Remote Collaboration</strong></td>
+      <td valign="middle">
+        <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack" />
+        <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white" alt="Zoom" />
+        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git" /></a>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ---
@@ -220,7 +222,7 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
 I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/ehsanulhaquekanan/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  <a href="https://www.linkedin.com/in/ehsanulhaquekanan/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </p>
