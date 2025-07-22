@@ -192,7 +192,7 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
       <td valign="middle"><strong>Cloud Platforms</strong></td>
       <td valign="middle">
         <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
-        <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" /> (Familiar with S3, EC2)
+        <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" /> (Lambda, API Gateway, CodeBuild, ECS Fargate, S3, ECR, IAM)
       </td>
     </tr>
     <tr>
