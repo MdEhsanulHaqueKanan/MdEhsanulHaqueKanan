@@ -47,6 +47,7 @@ These projects highlight my expertise across the entire AI/ML lifecycle, from in
 A complete, end-to-end MLOps pipeline on AWS that trains a model and deploys it as a scalable, cost-effective, and fully serverless API. This project demonstrates a deep, practical understanding of modern cloud architecture for machine learning.
 
 #### Highlights:
+*   Developed a regression model that explains **63% of the variance (R² of 0.63)** in YouTube video view counts on unseen data, tackling a highly skewed, real-world dataset.
 *   Engineered a **zero-cost** prediction infrastructure using the **AWS Always Free Tier** (Lambda, API Gateway, S3).
 *   Built a full **CI/CD pipeline with AWS CodeBuild and GitHub** to automatically build and deploy a Lambda-compatible Docker container from source code.
 *   Orchestrated model training as a one-off, containerized batch job using **AWS ECS Fargate** for maximum cost-efficiency.
