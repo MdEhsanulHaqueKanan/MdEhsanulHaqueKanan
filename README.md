@@ -39,6 +39,26 @@ Python, Flask, scikit-learn, XGBoost, LightGBM, SHAP, Imbalanced-learn, Pandas, 
 
 ---
 
+## 🚀 MLOps Showcase
+
+This project is a dedicated, enterprise-grade showcase of a modern MLOps workflow. It was built to demonstrate a complete, automated pipeline for testing, versioning, containerizing, and deploying a machine learning prediction service.
+
+###  Scalable ML Service: Ad Sales Prediction with CI/CD & MLflow
+A complete MLOps pipeline that automatically tests, builds, and pushes a containerized Flask API to a public registry. This project proves the ability to create robust, reproducible, and production-ready ML systems from the ground up.
+
+#### Highlights:
+*   **Full CI/CD Pipeline with GitHub Actions:** Automatically runs `pytest` unit tests, builds a Docker image, and pushes the validated image to Docker Hub on every commit to `main`.
+*   **Experiment Tracking & Model Registry with MLflow:** Tracks all training runs, logs parameters and metrics for reproducibility, and manages model versions by promoting them to "Production".
+*   **Containerized & Production-Ready:** The entire application is containerized with Docker and served by a Gunicorn WSGI server, ready for scalable deployment.
+*   **Automated Testing as a Quality Gate:** The CI/CD pipeline uses `pytest` to automatically validate the data processing pipeline, preventing bad code from being deployed.
+
+#### Tech Stack:
+MLflow, GitHub Actions, Pytest, Docker, Docker Hub, Flask, Gunicorn, Scikit-learn, Pandas.
+
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/Scalable-ML-Service-Ad-Sales-Prediction-with-CI-CD-and-MLflow)** | **[➡️ Live CI/CD Pipeline](https://github.com/MdEhsanulHaqueKanan/Scalable-ML-Service-Ad-Sales-Prediction-with-CI-CD-and-MLflow/actions)** | **[📦 Docker Hub Image](https://hub.docker.com/r/mdehsanulhaquekanan/scalable-ml-service)**
+
+---
+
 ## ✨ Featured Projects
 
 These projects highlight my expertise across the entire AI/ML lifecycle, from initial concept to deployed, user-friendly applications.
@@ -55,7 +75,7 @@ A complete, end-to-end MLOps pipeline on AWS that trains a model and deploys it 
 #### Tech Stack:
 AWS (Lambda, API Gateway, CodeBuild, ECS Fargate, S3, ECR, IAM, CloudWatch), Docker, Python, Scikit-Learn, Pandas.
 
-**[➡️ Live Demo](http://youtube-predictor-frontend-ehsanul-72525.s3-website-us-east-1.amazonaws.com)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/aws-serverless-youtube-predictor)**
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/aws-serverless-youtube-predictor)**
 
 ---
 
@@ -189,6 +209,7 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
       <td valign="middle"><strong>MLOps & Deployment</strong></td>
       <td valign="middle">
         <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,git,github,githubactions" /></a>
+        <img src="https://img.shields.io/badge/MLflow-0A9BDB?style=for-the-badge&logo=mlflow" alt="MLflow" />
       </td>
     </tr>
     <tr>
