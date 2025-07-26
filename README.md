@@ -75,7 +75,7 @@ A complete, end-to-end MLOps pipeline on AWS that trains a model and deploys it 
 #### Tech Stack:
 AWS (Lambda, API Gateway, CodeBuild, ECS Fargate, S3, ECR, IAM, CloudWatch), Docker, Python, Scikit-Learn, Pandas.
 
-**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/aws-serverless-youtube-predictor)**
+**[➡️ Live Demo](http://youtube-predictor-frontend-ehsanul-72525.s3-website-us-east-1.amazonaws.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/aws-serverless-youtube-predictor)**
 
 ---
 
