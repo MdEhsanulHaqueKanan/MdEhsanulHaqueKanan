@@ -118,7 +118,7 @@ An end-to-end machine learning application that combines rule-based filtering an
 #### Tech Stack:
 Python, Flask, Scikit-Learn, Pandas, Docker, Gunicorn, WhiteNoise, Render.
 
-**[➡️ Live Demo](https://processor-recommendation-engine.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
+**[➡️ Live Demo](https://processor-recom-engine.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
 
 *(Note: The server may spin down after inactivity. Please allow 3-6 mins for the app to "wake up" on your first visit.)*
 
