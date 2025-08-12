@@ -20,8 +20,26 @@ I build intelligent, data-driven applications from prototype to production. My p
 
 ## 🔬 Independent Research & Development
 
-This section highlights a significant independent project where I've deep-dived into a complex domain, applying advanced AI/ML and MLOps principles from research to deployment. It demonstrates my ability to conceptualize, research, and execute a comprehensive, industry-standard AI solution from the ground up.
+This section highlights significant independent projects where I've deep-dived into a complex domain, applying advanced AI/ML and MLOps principles. It demonstrates my ability to conceptualize, research, and execute a comprehensive, industry-standard AI solution from the ground up.
 
+### 🏭 Multimodal Knowledge-Enhanced Prescriptive Maintenance System
+An advanced, end-to-end **Prescriptive Maintenance (PdM)** system that demonstrates an intelligent, full-stack MLOps workflow. This project evolves beyond traditional prediction by integrating a **Retrieval-Augmented Generation (RAG)** pipeline, transforming it from a system that predicts *when* an asset will fail to one that prescribes *how to fix it* via a conversational AI assistant.
+
+#### Highlights:
+*   **Built a complete, private RAG pipeline** using **Ollama**, **ChromaDB**, and **LangChain** to create a conversational AI assistant that provides accurate, grounded answers from a custom knowledge base of technical manuals and logs.
+*   **Achieved strong predictive performance** on the underlying models, with an **RMSE of 15.82** for RUL prediction and **up to 95% Recall** for fault classification on imbalanced data.
+*   **Implemented a full Human-in-the-Loop (HITL) framework** with UI feedback buttons and a backend endpoint, designing the system for continuous learning and adaptation.
+*   **Engineered a complete MLOps lifecycle**, including data ingestion scripts, model training notebooks, a robust Flask API, and a fully **containerized Docker** environment for reproducible local deployment.
+
+#### Key Skills Demonstrated:
+End-to-End MLOps, Retrieval-Augmented Generation (RAG), LLMs (Ollama), Vector Databases (ChromaDB), Conversational AI, Human-in-the-Loop (HITL) Design, Explainable AI (XAI), Time-Series Analysis, NLP (Topic Modeling), Containerization (Docker).
+
+#### Tech Stack:
+Python, Flask, LangChain, Ollama, ChromaDB, Sentence-Transformers, scikit-learn, XGBoost, LightGBM, SHAP, NLTK, Pandas, Plotly.js, Pytest, Docker.
+
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/multimodal-prescriptive-pdm)** 
+
+---
 ### 🏭 Robust & Interpretable Predictive Maintenance System (PdM)
 A comprehensive, end-to-end Predictive Maintenance (PdM) system designed for evolving industrial environments. This project showcases an industry-standard approach to forecasting equipment failures, explaining model decisions, and adapting to changing operational conditions. It embodies the full Machine Learning Operations (MLOps) lifecycle, from data processing and model training to API development, dynamic web visualization, automated testing, and containerized deployment.
 
