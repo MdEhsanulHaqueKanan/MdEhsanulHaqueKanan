@@ -81,7 +81,7 @@ MLflow, GitHub Actions, Pytest, Docker, Docker Hub, Flask, Gunicorn, Scikit-lear
 
 These projects highlight my expertise across the entire AI/ML lifecycle, from initial concept to deployed, user-friendly applications.
 
-### 🧠 Processor Analysis Engine (Full-Stack with React & Flask)
+### 🧠 Processor Recommendation Engine (Full-Stack with React & Flask)
 A complete, end-to-end AI application that combines a high-accuracy machine learning backend with a modern, interactive React frontend. This project demonstrates the full product lifecycle: from data engineering and model training to building a headless API and deploying a decoupled, full-stack system to the cloud.
 
 #### Key Achievements & Results:
