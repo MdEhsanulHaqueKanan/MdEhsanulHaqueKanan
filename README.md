@@ -82,18 +82,18 @@ MLflow, GitHub Actions, Pytest, Docker, Docker Hub, Flask, Gunicorn, Scikit-lear
 These projects highlight my expertise across the entire AI/ML lifecycle, from initial concept to deployed, user-friendly applications.
 
 ### 🧠 Processor Analysis Engine (Full-Stack with React & Flask)
-A complete, end-to-end web application that demonstrates the seamless integration of a modern React frontend with a Python/Flask machine learning backend. This project showcases the full lifecycle of building a "headless" API and consuming it with a dynamic, responsive user interface.
+A complete, end-to-end AI application that combines a high-accuracy machine learning backend with a modern, interactive React frontend. This project demonstrates the full product lifecycle: from data engineering and model training to building a headless API and deploying a decoupled, full-stack system to the cloud.
 
-#### Highlights:
-*   **Architected a full-stack system** by refactoring a standalone Flask web app into a robust, headless REST API serving multiple ML models.
-*   **Built a dynamic user interface with React and TypeScript**, featuring real-time data fetching, client-side filtering, and interactive components.
-*   **Successfully deployed both services to the cloud**, with the Flask API containerized on **Render** and the React frontend hosted on **Vercel**, demonstrating a modern, decoupled deployment strategy.
-*   **Solved real-world integration challenges**, including Cross-Origin Resource Sharing (CORS) and managing production environment variables for API communication.
+#### Key Achievements & Results:
+*   **High-Accuracy ML Model (92.7% Accuracy):** Developed a multi-class classification model to predict a processor's function, with performance lifted by **2.6%** through systematic hyperparameter tuning.
+*   **Data-Driven Feature Engineering:** Engineered **9 new, structured features** from raw text, which were critical for the ML models' success and enabled robust filtering on the UI.
+*   **Full-Stack Decoupled Architecture:** Architected and deployed a modular system with a **Flask API containerized on Render** and a **React/TypeScript frontend on Vercel**.
+*   **Robust Data Handling:** Successfully processed and analyzed a real-world dataset of over **1,000 unique processors**, demonstrating the ability to handle data cleaning and transformation at scale.
 
 #### Tech Stack:
 React, TypeScript, Vite, Python, Flask, Pandas, Scikit-Learn, Docker, Render (API Hosting), Vercel (Frontend Hosting).
 
-**[➡️ Live Demo](https://processor-analysis-frontend.vercel.app/)** | **[📂 Frontend Source Code](https://github.com/MdEhsanulHaqueKanan/processor-analysis-frontend)** | **[📂 Backend Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-api)**
+**[➡️ Live Demo](https://processor-analysis-frontend.vercel.app/)** | **[📂 Frontend Source Code](https://github.com/MdEhsanulHaqueKanan/processor-analysis-frontend)** | **[📂 Backend API Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-api)** | **[🔬 My Original ML Notebooks & App](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
 
 *(Note: The backend server on the free tier may spin down after inactivity. Please allow up to a minute for the app to "wake up" on your first visit.)*
 
