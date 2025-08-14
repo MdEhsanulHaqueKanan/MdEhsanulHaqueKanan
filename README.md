@@ -81,6 +81,24 @@ MLflow, GitHub Actions, Pytest, Docker, Docker Hub, Flask, Gunicorn, Scikit-lear
 
 These projects highlight my expertise across the entire AI/ML lifecycle, from initial concept to deployed, user-friendly applications.
 
+### 🧠 Processor Analysis Engine (Full-Stack with React & Flask)
+A complete, end-to-end web application that demonstrates the seamless integration of a modern React frontend with a Python/Flask machine learning backend. This project showcases the full lifecycle of building a "headless" API and consuming it with a dynamic, responsive user interface.
+
+#### Highlights:
+*   **Architected a full-stack system** by refactoring a standalone Flask web app into a robust, headless REST API serving multiple ML models.
+*   **Built a dynamic user interface with React and TypeScript**, featuring real-time data fetching, client-side filtering, and interactive components.
+*   **Successfully deployed both services to the cloud**, with the Flask API containerized on **Render** and the React frontend hosted on **Vercel**, demonstrating a modern, decoupled deployment strategy.
+*   **Solved real-world integration challenges**, including Cross-Origin Resource Sharing (CORS) and managing production environment variables for API communication.
+
+#### Tech Stack:
+React, TypeScript, Vite, Python, Flask, Pandas, Scikit-Learn, Docker, Render (API Hosting), Vercel (Frontend Hosting).
+
+**[➡️ Live Demo](https://processor-analysis-frontend.vercel.app/)** | **[📂 Frontend Source Code](https://github.com/MdEhsanulHaqueKanan/processor-analysis-frontend)** | **[📂 Backend Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-api)**
+
+*(Note: The backend server on the free tier may spin down after inactivity. Please allow up to a minute for the app to "wake up" on your first visit.)*
+
+---
+
 ### ☁️ AWS Serverless YouTube Popularity Predictor
 A complete, end-to-end MLOps pipeline on AWS that trains a model and deploys it as a scalable, cost-effective, and fully serverless API. This project demonstrates a deep, practical understanding of modern cloud architecture for machine learning.
 
@@ -122,21 +140,6 @@ A full-stack NLP application that assists users in identifying potential disease
 Python, Flask, Sentence-Transformers, Scikit-Learn, Docker, Gunicorn, Render.
 
 **[➡️ Live Demo](https://disease-diagnosis-system.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/disease-diagnosis-system)**
-
-*(Note: The server may spin down after inactivity. Please allow 3-6 mins for the app to "wake up" on your first visit.)*
-
----
-
-### 🧠 Processor Recommendation & Analysis Engine
-An end-to-end machine learning application that combines rule-based filtering and ML-powered predictions to assist in processor selection for smart devices. This project highlights a full ML lifecycle, from data engineering and model training to robust API development, containerization, and cloud deployment, solving real-world production challenges.
-
-#### Highlights:
-* Developed a multi-class classification model achieving **92.7% accuracy** (with **2.6% lift**) via **9 new features** engineered from raw text.
-* Architected and deployed a modular Flask app serving **2 distinct ML models**, containerized with **Docker**, and capable of handling **1,000+ unique processors**.
-#### Tech Stack:
-Python, Flask, Scikit-Learn, Pandas, Docker, Gunicorn, WhiteNoise, Render.
-
-**[➡️ Live Demo](https://processor-recom-engine.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
 
 *(Note: The server may spin down after inactivity. Please allow 3-6 mins for the app to "wake up" on your first visit.)*
 
@@ -216,6 +219,13 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
       </td>
     </tr>
     <tr>
+      <td valign="middle"><strong>Frontend & UI</strong></td>
+      <td valign="middle">
+        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,vite,ts" /></a>
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+      </td>
+    </tr>
+    <tr>
       <td valign="middle"><strong>Data Science</strong></td>
       <td valign="middle">
         <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
@@ -228,6 +238,7 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
       <td valign="middle">
         <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,git,github,githubactions" /></a>
         <img src="https://img.shields.io/badge/MLflow-0A9BDB?style=for-the-badge&logo=mlflow" alt="MLflow" />
+        <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
       </td>
     </tr>
     <tr>
