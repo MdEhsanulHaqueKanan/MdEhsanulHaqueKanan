@@ -81,6 +81,24 @@ MLflow, GitHub Actions, Pytest, Docker, Docker Hub, Flask, Gunicorn, Scikit-lear
 
 These projects highlight my expertise across the entire AI/ML lifecycle, from initial concept to deployed, user-friendly applications.
 
+### ☁️ Full-Stack YouTube Popularity Predictor (React & AWS Serverless)
+A complete, end-to-end MLOps project that pairs a powerful serverless backend on AWS with a stunning, modern React and TypeScript frontend. This project showcases the ability to build and integrate a full-stack system, delivering a seamless user experience from data input to ML-powered prediction.
+
+#### Highlights:
+*   **Architected a fully decoupled, full-stack system**, with a React/TypeScript frontend communicating with a serverless Python backend via a REST API.
+*   **Developed a stunning, intuitive user interface** using React and Tailwind CSS, bootstrapped with Google AI Studio, to create a premium user experience for the prediction service.
+*   **Engineered a zero-cost prediction infrastructure** using the **AWS Always Free Tier** (Lambda, API Gateway, S3), demonstrating cost-conscious cloud architecture.
+*   **Built a full CI/CD pipeline for the backend** using **AWS CodeBuild and GitHub** to automatically containerize and deploy the prediction model.
+*   Achieved a regression model performance of **R² 0.63** on a challenging, real-world dataset.
+
+#### Tech Stack:
+**Frontend:** React, TypeScript, Vite, Tailwind CSS
+**Backend:** AWS (Lambda, API Gateway, CodeBuild, ECS Fargate, S3), Docker, Python, Scikit-Learn
+
+**[➡️ Live Demo](http://youtube-predictor-frontend-ehsanul-72525.s3-website-us-east-1.amazonaws.com/)** | **[📂 Frontend Code](https://github.com/MdEhsanulHaqueKanan/youtube-predictor-frontend)** | **[📂 Backend Code](https://github.com/MdEhsanulHaqueKanan/aws-serverless-youtube-predictor)**
+
+---
+
 ### 🧠 Processor Recommendation Engine (Full-Stack with React & Flask)
 A complete, end-to-end AI application that combines a high-accuracy machine learning backend with a modern, interactive React frontend. This project demonstrates the full product lifecycle: from data engineering and model training to building a headless API and deploying a decoupled, full-stack system to the cloud.
 
@@ -96,22 +114,6 @@ React, TypeScript, Vite, Python, Flask, Pandas, Scikit-Learn, Docker, Render (AP
 **[➡️ Live Demo](https://processor-analysis-frontend.vercel.app/)** | **[📂 Frontend Source Code](https://github.com/MdEhsanulHaqueKanan/processor-analysis-frontend)** | **[📂 Backend API Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-api)** | **[🔬 My Original ML Notebooks & App](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
 
 *(Note: The backend server on the free tier may spin down after inactivity. Please allow up to a minute for the app to "wake up" on your first visit.)*
-
----
-
-### ☁️ AWS Serverless YouTube Popularity Predictor
-A complete, end-to-end MLOps pipeline on AWS that trains a model and deploys it as a scalable, cost-effective, and fully serverless API. This project demonstrates a deep, practical understanding of modern cloud architecture for machine learning.
-
-#### Highlights:
-*   Developed a regression model that explains **63% of the variance (R² of 0.63)** in YouTube video view counts on unseen data, tackling a highly skewed, real-world dataset.
-*   Engineered a **zero-cost** prediction infrastructure using the **AWS Always Free Tier** (Lambda, API Gateway, S3).
-*   Built a full **CI/CD pipeline with AWS CodeBuild and GitHub** to automatically build and deploy a Lambda-compatible Docker container from source code.
-*   Orchestrated model training as a one-off, containerized batch job using **AWS ECS Fargate** for maximum cost-efficiency.
-
-#### Tech Stack:
-AWS (Lambda, API Gateway, CodeBuild, ECS Fargate, S3, ECR, IAM, CloudWatch), Docker, Python, Scikit-Learn, Pandas.
-
-**[➡️ Live Demo](http://youtube-predictor-frontend-ehsanul-72525.s3-website-us-east-1.amazonaws.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/aws-serverless-youtube-predictor)**
 
 ---
 
