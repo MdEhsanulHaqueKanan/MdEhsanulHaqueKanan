@@ -40,46 +40,10 @@ Python, Flask, LangChain, Ollama, ChromaDB, Sentence-Transformers, scikit-learn,
 **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/multimodal-prescriptive-pdm)** 
 
 ---
-### 🏭 Robust & Interpretable Predictive Maintenance System (PdM)
-A comprehensive, end-to-end Predictive Maintenance (PdM) system designed for evolving industrial environments. This project showcases an industry-standard approach to forecasting equipment failures, explaining model decisions, and adapting to changing operational conditions. It embodies the full Machine Learning Operations (MLOps) lifecycle, from data processing and model training to API development, dynamic web visualization, automated testing, and containerized deployment.
 
-#### Highlights:
-* Achieved **RMSE 15.82 (R² 0.85)** and **95% Recall with XAI**, significantly reducing dashboard load time from **5 mins to under 5 seconds**.
-* Implemented a full **MLOps lifecycle** including **automated `pytest`** and **Docker** containerization for robust, production-ready deployment.
+## ✨ Full-Stack MLOps Applications
 
-#### Key Skills Demonstrated:
-End-to-End MLOps Lifecycle, Machine Learning Research, Data Engineering, Model Development & Deployment, Explainable AI (XAI), Time-Series Analysis, Containerization, Automated Testing.
-
-#### Tech Stack:
-Python, Flask, scikit-learn, XGBoost, LightGBM, SHAP, Imbalanced-learn, Pandas, Plotly.js, Pico.css, Pytest, Docker.
-
-**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/robust-pdm-system)**
-
----
-
-## 🚀 MLOps Showcase
-
-This project is a dedicated, enterprise-grade showcase of a modern MLOps workflow. It was built to demonstrate a complete, automated pipeline for testing, versioning, containerizing, and deploying a machine learning prediction service.
-
-###  Scalable ML Service: Ad Sales Prediction with CI/CD & MLflow
-A complete MLOps pipeline that automatically tests, builds, and pushes a containerized Flask API to a public registry. This project proves the ability to create robust, reproducible, and production-ready ML systems from the ground up.
-
-#### Highlights:
-*   **Full CI/CD Pipeline with GitHub Actions:** Automatically runs `pytest` unit tests, builds a Docker image, and pushes the validated image to Docker Hub on every commit to `main`.
-*   **Experiment Tracking & Model Registry with MLflow:** Tracks all training runs, logs parameters and metrics for reproducibility, and manages model versions by promoting them to "Production".
-*   **Containerized & Production-Ready:** The entire application is containerized with Docker and served by a Gunicorn WSGI server, ready for scalable deployment.
-*   **Automated Testing as a Quality Gate:** The CI/CD pipeline uses `pytest` to automatically validate the data processing pipeline, preventing bad code from being deployed.
-
-#### Tech Stack:
-MLflow, GitHub Actions, Pytest, Docker, Docker Hub, Flask, Gunicorn, Scikit-learn, Pandas.
-
-**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/Scalable-ML-Service-Ad-Sales-Prediction-with-CI-CD-and-MLflow)** | **[➡️ Live CI/CD Pipeline](https://github.com/MdEhsanulHaqueKanan/Scalable-ML-Service-Ad-Sales-Prediction-with-CI-CD-and-MLflow/actions)** | **[📦 Docker Hub Image](https://hub.docker.com/r/mdehsanulhaquekanan/scalable-ml-service)**
-
----
-
-## ✨ Featured Projects
-
-These projects highlight my expertise across the entire AI/ML lifecycle, from initial concept to deployed, user-friendly applications.
+These projects highlight my expertise in building complete, end-to-end AI applications, from a modern, interactive frontend to a robust, scalable backend infrastructure.
 
 ### ☁️ Full-Stack YouTube Popularity Predictor (React & AWS Serverless)
 A complete, end-to-end MLOps project that pairs a powerful serverless backend on AWS with a stunning, modern React and TypeScript frontend. This project showcases the ability to build and integrate a full-stack system, delivering a seamless user experience from data input to ML-powered prediction.
@@ -87,7 +51,7 @@ A complete, end-to-end MLOps project that pairs a powerful serverless backend on
 #### Highlights:
 *   **Architected a fully decoupled, full-stack system**, with a React/TypeScript frontend communicating with a serverless Python backend via a REST API.
 *   **Developed a stunning, intuitive user interface** using React and Tailwind CSS, bootstrapped with Google AI Studio, to create a premium user experience for the prediction service.
-*   **Engineered a zero-cost prediction infrastructure** using the **AWS Always Free Tier** (Lambda, API Gateway, S3), demonstrating cost-conscious cloud architecture.
+*   **Engineered a zero-cost prediction infrastructure** using the **AWS Always Free Tier** (Lambda, API Gateway, SЗ), demonstrating cost-conscious cloud architecture.
 *   **Built a full CI/CD pipeline for the backend** using **AWS CodeBuild and GitHub** to automatically containerize and deploy the prediction model.
 *   Achieved a regression model performance of **R² 0.63** on a challenging, real-world dataset.
 
@@ -104,16 +68,53 @@ A complete, end-to-end AI application that combines a high-accuracy machine lear
 
 #### Key Achievements & Results:
 *   **High-Accuracy ML Model (92.7% Accuracy):** Developed a multi-class classification model to predict a processor's function, with performance lifted by **2.6%** through systematic hyperparameter tuning.
-*   **Data-Driven Feature Engineering:** Engineered **9 new, structured features** from raw text, which were critical for the ML models' success and enabled robust filtering on the UI.
 *   **Full-Stack Decoupled Architecture:** Architected and deployed a modular system with a **Flask API containerized on Render** and a **React/TypeScript frontend on Vercel**.
-*   **Robust Data Handling:** Successfully processed and analyzed a real-world dataset of over **1,000 unique processors**, demonstrating the ability to handle data cleaning and transformation at scale.
 
 #### Tech Stack:
 React, TypeScript, Vite, Python, Flask, Pandas, Scikit-Learn, Docker, Render (API Hosting), Vercel (Frontend Hosting).
 
-**[➡️ Live Demo](https://processor-analysis-frontend.vercel.app/)** | **[📂 Frontend Source Code](https://github.com/MdEhsanulHaqueKanan/processor-analysis-frontend)** | **[📂 Backend API Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-api)** | **[🔬 My Original ML Notebooks & App](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-engine)**
+**[➡️ Live Demo](https://processor-analysis-frontend.vercel.app/)** | **[📂 Frontend Source Code](https://github.com/MdEhsanulHaqueKanan/processor-analysis-frontend)** | **[📂 Backend API Source Code](https://github.com/MdEhsanulHaqueKanan/processor-recommendation-api)** 
 
 *(Note: The backend server on the free tier may spin down after inactivity. Please allow up to a minute for the app to "wake up" on your first visit.)*
+
+---
+
+## 🚀 MLOps Showcase
+
+This section highlights projects focused on the core automation and infrastructure of Machine Learning Operations.
+
+###  Scalable ML Service: Ad Sales Prediction with CI/CD & MLflow
+A complete MLOps pipeline that automatically tests, builds, and pushes a containerized Flask API to a public registry. This project proves the ability to create robust, reproducible, and production-ready ML systems from the ground up.
+
+#### Highlights:
+*   **Full CI/CD Pipeline with GitHub Actions:** Automatically runs `pytest` unit tests, builds a Docker image, and pushes the validated image to Docker Hub on every commit to `main`.
+*   **Experiment Tracking & Model Registry with MLflow:** Tracks all training runs, logs parameters and metrics for reproducibility, and manages model versions by promoting them to "Production".
+
+#### Tech Stack:
+MLflow, GitHub Actions, Pytest, Docker, Docker Hub, Flask, Gunicorn, Scikit-learn, Pandas.
+
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/Scalable-ML-Service-Ad-Sales-Prediction-with-CI-CD-and-MLflow)** | **[➡️ Live CI/CD Pipeline](https://github.com/MdEhsanulHaqueKanan/Scalable-ML-Service-Ad-Sales-Prediction-with-CI-CD-and-MLflow/actions)** | **[📦 Docker Hub Image](https://hub.docker.com/r/mdehsanulhaquekanan/scalable-ml-service)**
+
+---
+
+## 🔬 Additional End-to-End Projects
+
+A collection of other projects demonstrating a wide range of skills across the AI/ML landscape.
+
+### 🏭 Robust & Interpretable Predictive Maintenance System (PdM)
+A comprehensive, end-to-end Predictive Maintenance (PdM) system designed for evolving industrial environments. This project showcases an industry-standard approach to forecasting equipment failures, explaining model decisions, and adapting to changing operational conditions. It embodies the full Machine Learning Operations (MLOps) lifecycle, from data processing and model training to API development, dynamic web visualization, automated testing, and containerized deployment.
+
+#### Highlights:
+* Achieved **RMSE 15.82 (R² 0.85)** and **95% Recall with XAI**, significantly reducing dashboard load time from **5 mins to under 5 seconds**.
+* Implemented a full **MLOps lifecycle** including **automated `pytest`** and **Docker** containerization for robust, production-ready deployment.
+
+#### Key Skills Demonstrated:
+End-to-End MLOps Lifecycle, Machine Learning Research, Data Engineering, Model Development & Deployment, Explainable AI (XAI), Time-Series Analysis, Containerization, Automated Testing.
+
+#### Tech Stack:
+Python, Flask, scikit-learn, XGBoost, LightGBM, SHAP, Imbalanced-learn, Pandas, Plotly.js, Pico.css, Pytest, Docker.
+
+**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/robust-pdm-system)**
 
 ---
 
