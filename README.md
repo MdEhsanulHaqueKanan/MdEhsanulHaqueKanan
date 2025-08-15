@@ -45,15 +45,15 @@ Python, Flask, LangChain, Ollama, ChromaDB, Sentence-Transformers, scikit-learn,
 
 These projects highlight my expertise in building complete, end-to-end AI applications, from a modern, interactive frontend to a robust, scalable backend infrastructure.
 
-### ☁️ Full-Stack YouTube Popularity Predictor (React & AWS Serverless)
+### ☁️ AWS Serverless + React Full-Stack YouTube Popularity Predictor 
 A complete, end-to-end MLOps project that pairs a powerful serverless backend on AWS with a stunning, modern React and TypeScript frontend. This project showcases the ability to build and integrate a full-stack system, delivering a seamless user experience from data input to ML-powered prediction.
 
 #### Highlights:
 *   **Architected a fully decoupled, full-stack system**, with a React/TypeScript frontend communicating with a serverless Python backend via a REST API.
-*   **Developed a stunning, intuitive user interface** using React and Tailwind CSS, bootstrapped with Google AI Studio, to create a premium user experience for the prediction service.
-*   **Engineered a zero-cost prediction infrastructure** using the **AWS Always Free Tier** (Lambda, API Gateway, SЗ), demonstrating cost-conscious cloud architecture.
-*   **Built a full CI/CD pipeline for the backend** using **AWS CodeBuild and GitHub** to automatically containerize and deploy the prediction model.
 *   Achieved a regression model performance of **R² 0.63** on a challenging, real-world dataset.
+*   **Engineered a zero-cost prediction infrastructure** using the **AWS Always Free Tier** (Lambda, API Gateway, SЗ), demonstrating cost-conscious cloud architecture.
+*   **Built a full CI/CD pipeline for the backend** using **AWS CodeBuild and GitHub** to automatically containerize and deploy the prediction model.  
+*   **Developed a stunning, intuitive user interface** using React and Tailwind CSS, bootstrapped with Google AI Studio, to create a premium user experience for the prediction service.
 
 #### Tech Stack:
 **Frontend:** React, TypeScript, Vite, Tailwind CSS
