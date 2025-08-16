@@ -84,16 +84,16 @@ React, TypeScript, Vite, Python, Flask, Pandas, Scikit-Learn, Docker, Render (AP
 This section highlights projects focused on the core automation and infrastructure of Machine Learning Operations.
 
 ###  Scalable ML Service: Ad Sales Prediction with CI/CD & MLflow
-A complete MLOps pipeline that automatically tests, builds, and pushes a containerized Flask API to a public registry. This project proves the ability to create robust, reproducible, and production-ready ML systems from the ground up.
+A complete MLOps pipeline and full-stack application that automatically tests and deploys a containerized Flask API to Render, consumed by a modern React frontend deployed on Vercel.
 
 #### Highlights:
 *   **Full CI/CD Pipeline with GitHub Actions:** Automatically runs `pytest` unit tests, builds a Docker image, and pushes the validated image to Docker Hub on every commit to `main`.
 *   **Experiment Tracking & Model Registry with MLflow:** Tracks all training runs, logs parameters and metrics for reproducibility, and manages model versions by promoting them to "Production".
 
 #### Tech Stack:
-MLflow, GitHub Actions, Pytest, Docker, Docker Hub, Flask, Gunicorn, Scikit-learn, Pandas.
+MLflow, GitHub Actions, Pytest, Docker, Docker Hub, Flask, Gunicorn, Scikit-learn, Pandas, Render, React, TypeScript
 
-**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/Scalable-ML-Service-Ad-Sales-Prediction-with-CI-CD-and-MLflow)** | **[➡️ Live CI/CD Pipeline](https://github.com/MdEhsanulHaqueKanan/Scalable-ML-Service-Ad-Sales-Prediction-with-CI-CD-and-MLflow/actions)** | **[📦 Docker Hub Image](https://hub.docker.com/r/mdehsanulhaquekanan/scalable-ml-service)**
+**[➡️ Live Demo](https://ad-sales-predictor-frontend.vercel.app/)** | **[📂 Frontend Source](https://github.com/MdEhsanulHaqueKanan/ad-sales-predictor-frontend)** | **[📂 Backend Source](https://github.com/MdEhsanulHaqueKanan/Scalable-ML-Service-Ad-Sales-Prediction-with-CI-CD-and-MLflow)** | **[➡️ Live CI/CD Pipeline](https://github.com/MdEhsanulHaqueKanan/Scalable-ML-Service-Ad-Sales-Prediction-with-CI-CD-and-MLflow/actions)** | **[📦 Docker Hub Image](https://hub.docker.com/r/mdehsanulhaquekanan/scalable-ml-service)**
 
 ---
 
