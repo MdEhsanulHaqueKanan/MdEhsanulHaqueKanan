@@ -83,7 +83,7 @@ React, TypeScript, Vite, Python, Flask, Pandas, Scikit-Learn, Docker, Render (AP
 
 This section highlights projects focused on the core automation and infrastructure of Machine Learning Operations.
 
-###  Scalable ML Service: Ad Sales Prediction with CI/CD & MLflow
+###  Scalable ML Service: Ad Sales Prediction with CI/CD & MLflow (Full-Stack with React & Flask)
 A complete MLOps pipeline and full-stack application that automatically tests and deploys a containerized Flask API to Render, consumed by a modern React frontend deployed on Vercel.
 
 #### Highlights:
