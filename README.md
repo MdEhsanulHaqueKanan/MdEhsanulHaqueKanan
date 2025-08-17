@@ -63,6 +63,23 @@ A complete, end-to-end MLOps project that pairs a powerful serverless backend on
 
 ---
 
+### 🤖 NLP-Powered Disease Diagnosis System (Full-Stack with React & Flask)
+An end-to-end NLP application that has been evolved into a decoupled, full-stack system. This project demonstrates the complete lifecycle: from a monolithic proof-of-concept to a scalable, production-grade application with a modern React UI and a containerized Flask API.
+
+#### Highlights:
+*   **Full-Stack Decoupled Architecture:** Architected and deployed a modular system with a **Flask API containerized on Render** and a **React/TypeScript frontend on Vercel**.
+*   **Modern React UI:** Built a stunning, responsive user interface with React and TypeScript, bootstrapped with **Google AI Studio**, featuring data visualizations and animations for a premium user experience.
+*   **Production-Optimized Backend:** Optimized the core NLP model's memory footprint by **~75% (to 22MB)** to successfully deploy on a **512MB RAM** server, achieving sub-second API response times on cost-free infrastructure.
+
+#### Tech Stack:
+React, TypeScript, Vite, Python, Flask, Sentence-Transformers, Docker, Render (API), Vercel (Frontend).
+
+**[➡️ Live Demo](https://symptom-checker-frontend-ten.vercel.app/)** | **[📂 Frontend Code](https://github.com/MdEhsanulHaqueKanan/symptom-checker-frontend)** | **[📂 Backend API Code](https://github.com/MdEhsanulHaqueKanan/disease-diagnosis-api)** | **[📂 Original Project](https://github.com/MdEhsanulHaqueKanan/disease-diagnosis-system)**
+
+*(Note: The backend API on the free tier may spin down after inactivity. Please allow up to a minute for the app to "wake up" on your first visit.)*
+
+---
+
 ### 🧠 Processor Recommendation Engine (Full-Stack with React & Flask)
 A complete, end-to-end AI application that combines a high-accuracy machine learning backend with a modern, interactive React frontend. This project demonstrates the full product lifecycle: from data engineering and model training to building a headless API and deploying a decoupled, full-stack system to the cloud.
 
@@ -130,21 +147,6 @@ Python, LangChain, Streamlit, Ollama, Phi-3, DuckDuckGo Search.
 **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/ai-research-assistant)** 
 
 *(Note: This project runs locally to ensure 100% data privacy and has no live deployment.)*
-
----
-
-### 🤖 NLP Disease Diagnosis System
-A full-stack NLP application that assists users in identifying potential diseases from natural language symptoms. This project showcases advanced MLOps skills, including model optimization for production environments and debugging live deployment issues.
-
-#### Highlights:
-* Optimized model memory by **~75% (to 22MB)** for **512MB RAM** cloud deployment, achieving **100% cost-free** infrastructure.
-* Achieved **sub-second API response times** by pre-loading model artifacts and designed a multi-stage **Dockerfile** for portable deployment.
-#### Tech Stack:
-Python, Flask, Sentence-Transformers, Scikit-Learn, Docker, Gunicorn, Render.
-
-**[➡️ Live Demo](https://disease-diagnosis-system.onrender.com/)** | **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/disease-diagnosis-system)**
-
-*(Note: The server may spin down after inactivity. Please allow 3-6 mins for the app to "wake up" on your first visit.)*
 
 ---
 
