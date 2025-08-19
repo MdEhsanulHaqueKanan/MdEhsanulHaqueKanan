@@ -96,6 +96,25 @@ React, TypeScript, Vite, Python, Flask, Pandas, Scikit-Learn, Docker, Render (AP
 
 ---
 
+### 🌿 House Plant Species Identifier (Full-Stack with PyTorch & React)
+An end-to-end computer vision project that was evolved from a monolithic Flask app into a modern, decoupled, full-stack system. This project demonstrates the complete MLOps lifecycle: from a proof-of-concept to a scalable, production-grade application with a stunning React UI and a containerized PyTorch API deployed on a specialized ML platform.
+
+#### Highlights:
+*   **Full-Stack Decoupled Architecture:** Architected and deployed a modular system with a **Flask/PyTorch API containerized on Hugging Face Spaces** and a **React/TypeScript frontend on Vercel**.
+*   **Production Platform Migration:** Successfully diagnosed and resolved platform-specific timeout issues by migrating the backend from a general-purpose host (Render) to a specialized, hardware-accelerated ML host (Hugging Face), demonstrating advanced MLOps problem-solving.
+*   **Modern React UI:** Built a beautiful, responsive user interface with React and TypeScript, bootstrapped with **Google AI Studio**, to create a premium user experience.
+*   **Deep Learning Model (82% Accuracy):** Fine-tuned an `EfficientNet-B0` model with PyTorch to achieve 82% weighted F1-score on 47 different plant species.
+
+#### Tech Stack:
+**Frontend:** React, TypeScript, Vite, Tailwind CSS, Vercel
+**Backend:** Python, Flask, PyTorch, Docker, Git LFS, Hugging Face Spaces
+
+**[➡️ Live Demo](https://house-plant-frontend-3vsr32tzq-md-ehsanul-haque-kanans-projects.vercel.app/)** | **[📂 Frontend Code](https://github.com/MdEhsanulHaqueKanan/house-plant-frontend)** | **[📂 Backend API Code](https://github.com/MdEhsanulHaqueKanan/house-plant-api)** | **[📂 Original Project](https://github.com/MdEhsanulHaqueKanan/house-plant-species-identifier-machine-learning-flask-app)**
+
+*(Note: The backend API is on a free community tier and may "sleep" after inactivity. The first prediction might take 30-90 seconds to wake the server up.)*
+
+---
+
 ## 🚀 MLOps Showcase
 
 This section highlights projects focused on the core automation and infrastructure of Machine Learning Operations.
@@ -173,18 +192,6 @@ A full-stack machine learning application designed to predict equipment failure 
 Python, Flask, Scikit-Learn, Pandas, Imbalanced-learn, Joblib.
 
 **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/predictive-maintenance-machine-learning-flask-app)**
-
----
-
-### 🌿 House Plant Species Identifier
-A deep learning-powered web app that can identify different species of house plants from an uploaded image.
-
-#### Highlights:
-* Achieved **82% overall accuracy** (with a weighted F1-score of 0.82) on 47 plant species using a pre-trained computer vision model for transfer learning, deployed in a user-friendly Flask application.
-#### Tech Stack:
-Python, Flask, PyTorch, Torchvision, Pillow.
-
-**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/house-plant-species-identifier-machine-learning-flask-app)**
 
 ---
 
