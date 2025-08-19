@@ -26,8 +26,8 @@ This section highlights significant independent projects where I've deep-dived i
 An advanced, end-to-end **Prescriptive Maintenance (PdM)** system that demonstrates an intelligent, full-stack MLOps workflow. This project evolves beyond traditional prediction by integrating a **Retrieval-Augmented Generation (RAG)** pipeline, transforming it from a system that predicts *when* an asset will fail to one that prescribes *how to fix it* via a conversational AI assistant.
 
 #### Highlights:
-*   **Built a complete, private RAG pipeline** using **Ollama**, **ChromaDB**, and **LangChain** to create a conversational AI assistant that provides accurate, grounded answers from a custom knowledge base of technical manuals and logs.
 *   **Achieved strong predictive performance** on the underlying models, with an **RMSE of 15.82** for RUL prediction and **up to 95% Recall** for fault classification on imbalanced data.
+*   **Built a complete, private RAG pipeline** using **Ollama**, **ChromaDB**, and **LangChain** to create a conversational AI assistant that provides accurate, grounded answers from a custom knowledge base of technical manuals and logs.
 *   **Implemented a full Human-in-the-Loop (HITL) framework** with UI feedback buttons and a backend endpoint, designing the system for continuous learning and adaptation.
 *   **Engineered a complete MLOps lifecycle**, including data ingestion scripts, model training notebooks, a robust Flask API, and a fully **containerized Docker** environment for reproducible local deployment.
 
@@ -49,10 +49,10 @@ These projects highlight my expertise in building complete, end-to-end AI applic
 A complete, end-to-end MLOps project that pairs a powerful serverless backend on AWS with a stunning, modern React and TypeScript frontend. This project showcases the ability to build and integrate a full-stack system, delivering a seamless user experience from data input to ML-powered prediction.
 
 #### Highlights:
-*   **Architected a fully decoupled, full-stack system**, with a React/TypeScript frontend communicating with a serverless Python backend via a REST API.
 *   Achieved a regression model performance of **R² 0.63** on a challenging, real-world dataset.
 *   **Engineered a zero-cost prediction infrastructure** using the **AWS Always Free Tier** (Lambda, API Gateway, SЗ), demonstrating cost-conscious cloud architecture.
-*   **Built a full CI/CD pipeline for the backend** using **AWS CodeBuild and GitHub** to automatically containerize and deploy the prediction model.  
+*   **Built a full CI/CD pipeline for the backend** using **AWS CodeBuild and GitHub** to automatically containerize and deploy the prediction model.
+*   **Architected a fully decoupled, full-stack system**, with a React/TypeScript frontend communicating with a serverless Python backend via a REST API.
 *   **Developed a stunning, intuitive user interface** using React and Tailwind CSS, bootstrapped with Google AI Studio, to create a premium user experience for the prediction service.
 
 #### Tech Stack:
@@ -67,9 +67,10 @@ A complete, end-to-end MLOps project that pairs a powerful serverless backend on
 An end-to-end NLP application that has been evolved into a decoupled, full-stack system. This project demonstrates the complete lifecycle: from a monolithic proof-of-concept to a scalable, production-grade application with a modern React UI and a containerized Flask API.
 
 #### Highlights:
+*   **Production-Optimized Backend:** Optimized the core NLP model's memory footprint by **~75% (to 22MB)** to successfully deploy on a **512MB RAM** server, achieving sub-second API response times on cost-free infrastructure.
 *   **Full-Stack Decoupled Architecture:** Architected and deployed a modular system with a **Flask API containerized on Render** and a **React/TypeScript frontend on Vercel**.
 *   **Modern React UI:** Built a stunning, responsive user interface with React and TypeScript, bootstrapped with **Google AI Studio**, featuring data visualizations and animations for a premium user experience.
-*   **Production-Optimized Backend:** Optimized the core NLP model's memory footprint by **~75% (to 22MB)** to successfully deploy on a **512MB RAM** server, achieving sub-second API response times on cost-free infrastructure.
+
 
 #### Tech Stack:
 React, TypeScript, Vite, Python, Flask, Sentence-Transformers, Docker, Render (API), Vercel (Frontend).
@@ -100,10 +101,10 @@ React, TypeScript, Vite, Python, Flask, Pandas, Scikit-Learn, Docker, Render (AP
 An end-to-end computer vision project that was evolved from a monolithic Flask app into a modern, decoupled, full-stack system. This project demonstrates the complete MLOps lifecycle: from a proof-of-concept to a scalable, production-grade application with a stunning React UI and a containerized PyTorch API deployed on a specialized ML platform.
 
 #### Highlights:
+*   **Deep Learning Model (82% Accuracy):** Fine-tuned an `EfficientNet-B0` model with PyTorch to achieve 82% weighted F1-score on 47 different plant species.
 *   **Full-Stack Decoupled Architecture:** Architected and deployed a modular system with a **Flask/PyTorch API containerized on Hugging Face Spaces** and a **React/TypeScript frontend on Vercel**.
 *   **Production Platform Migration:** Successfully diagnosed and resolved platform-specific timeout issues by migrating the backend from a general-purpose host (Render) to a specialized, hardware-accelerated ML host (Hugging Face), demonstrating advanced MLOps problem-solving.
 *   **Modern React UI:** Built a beautiful, responsive user interface with React and TypeScript, bootstrapped with **Google AI Studio**, to create a premium user experience.
-*   **Deep Learning Model (82% Accuracy):** Fine-tuned an `EfficientNet-B0` model with PyTorch to achieve 82% weighted F1-score on 47 different plant species.
 
 #### Tech Stack:
 **Frontend:** React, TypeScript, Vite, Tailwind CSS, Vercel
