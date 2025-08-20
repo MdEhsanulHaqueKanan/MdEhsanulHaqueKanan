@@ -97,6 +97,25 @@ React, TypeScript, Vite, Python, Flask, Pandas, Scikit-Learn, Docker, Render (AP
 
 ---
 
+### ✈️ Drone Detection System (Full-Stack with PyTorch & React)
+An advanced, end-to-end computer vision project that demonstrates a full MLOps lifecycle for object detection. This project was evolved from a monolithic Flask application into a modern, decoupled system featuring a containerized PyTorch API that returns JSON coordinates, and a dynamic React frontend that renders bounding boxes on the client-side.
+
+#### Highlights:
+*   **Robust Object Detection Model:** Fine-tuned a **Faster R-CNN** model with PyTorch, achieving a low final test loss of **0.0638**, indicating strong model accuracy and convergence.
+*   **Professional MLOps Workflow:** Utilized **Docker** for containerization and **Git LFS** to professionally manage large model files, ensuring a reproducible and scalable deployment.
+*   **Advanced Full-Stack Architecture:** Architected and deployed a modular system with a **Flask/PyTorch API containerized on Hugging Face Spaces** and a **React/TypeScript frontend on Vercel**.
+*   **Complex Frontend Rendering:** The React UI dynamically renders bounding boxes and labels over the source image based on raw JSON coordinates received from the API, demonstrating advanced frontend data visualization.
+
+#### Tech Stack:
+**Frontend:** React, TypeScript, Vite, Tailwind CSS, Vercel
+**Backend:** Python, Flask, PyTorch, Docker, Git LFS, Hugging Face Spaces
+
+**[➡️ Live Demo](https://drone-detection-frontend.vercel.app/)** | **[📂 Frontend Code](https://github.com/MdEhsanulHaqueKanan/drone-detection-frontend)** | **[📂 Backend API Code](https://github.com/MdEhsanulHaqueKanan/drone-detection-api)** | **[📂 Original Project](https://github.com/MdEhsanulHaqueKanan/drone-detection-deep-learning-flask-app)**
+
+*(Note: The backend API is on a free community tier and may "sleep" after inactivity. The first prediction might take 30-90 seconds to wake the server up.)*
+
+---
+
 ### 🌿 House Plant Species Identifier (Full-Stack with PyTorch & React)
 An end-to-end computer vision project that was evolved from a monolithic Flask app into a modern, decoupled, full-stack system. This project demonstrates the complete MLOps lifecycle: from a proof-of-concept to a scalable, production-grade application with a stunning React UI and a containerized PyTorch API deployed on a specialized ML platform.
 
@@ -193,20 +212,6 @@ A full-stack machine learning application designed to predict equipment failure 
 Python, Flask, Scikit-Learn, Pandas, Imbalanced-learn, Joblib.
 
 **[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/predictive-maintenance-machine-learning-flask-app)**
-
----
-
-### ✈️ Drone Detection System
-An end-to-end computer vision system that trains a Faster R-CNN model for object detection and deploys it as an interactive Flask web application. This project demonstrates a complete workflow from a research-oriented Kaggle notebook to a user-facing, production-ready application.
-
-#### Highlights:
-* Achieved a low final test loss of **0.0638**, indicating strong model convergence and accuracy.
-* Successfully transitioned a complex deep learning pipeline from a Kaggle research notebook to a fully interactive Flask app.
-* Engineered a custom visualization pipeline using **Pillow** for clear, professional-grade bounding box and label rendering, significantly improving on default library outputs.
-#### Tech Stack:
-Python, Flask, PyTorch, Torchvision, Albumentations, Pillow, NumPy.
-
-**[📂 Source Code](https://github.com/MdEhsanulHaqueKanan/drone-detection-deep-learning-flask-app)**
 
 ---
 
