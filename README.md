@@ -120,7 +120,7 @@ An advanced, end-to-end computer vision project that demonstrates a full MLOps l
 An end-to-end computer vision project that was evolved from a monolithic Flask app into a modern, decoupled, full-stack system. This project demonstrates the complete MLOps lifecycle: from a proof-of-concept to a scalable, production-grade application with a stunning React UI and a containerized PyTorch API deployed on a specialized ML platform.
 
 #### Highlights:
-*   **Deep Learning Model (82% Accuracy):** Fine-tuned an `EfficientNet-B0` model with PyTorch to achieve 82% weighted F1-score on 47 different plant species.
+*   **Custom-Trained Deep Learning Model (82% Accuracy):** Engineered the complete training pipeline from scratch, including data augmentation and writing the full PyTorch training and validation loops. Fine-tuned an `EfficientNet-B0` model on a Kaggle GPU to achieve an 82% weighted F1-score on 47 different plant species.
 *   **Full-Stack Decoupled Architecture:** Architected and deployed a modular system with a **Flask/PyTorch API containerized on Hugging Face Spaces** and a **React/TypeScript frontend on Vercel**.
 *   **Production Platform Migration:** Successfully diagnosed and resolved platform-specific timeout issues by migrating the backend from a general-purpose host (Render) to a specialized, hardware-accelerated ML host (Hugging Face), demonstrating advanced MLOps problem-solving.
 *   **Modern React UI:** Built a beautiful, responsive user interface with React and TypeScript, bootstrapped with **Google AI Studio**, to create a premium user experience.
