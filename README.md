@@ -101,7 +101,7 @@ React, TypeScript, Vite, Python, Flask, Pandas, Scikit-Learn, Docker, Render (AP
 An advanced, end-to-end computer vision project that demonstrates a full MLOps lifecycle for object detection. This project was evolved from a monolithic Flask application into a modern, decoupled system featuring a containerized PyTorch API that returns JSON coordinates, and a dynamic React frontend that renders bounding boxes on the client-side.
 
 #### Highlights:
-*   **Robust Object Detection Model:** Fine-tuned a **Faster R-CNN** model with PyTorch, achieving a low final test loss of **0.0638**, indicating strong model accuracy and convergence.
+*   **Custom-Trained Object Detection Model:** Engineered the complete training pipeline from scratch, including data preprocessing and writing the PyTorch training and validation loops. Fine-tuned a **Faster R-CNN** model with PyTorch on a Kaggle GPU, achieving a low final test loss of **0.0638**, indicating strong model accuracy and convergence.
 *   **Professional MLOps Workflow:** Utilized **Docker** for containerization and **Git LFS** to professionally manage large model files, ensuring a reproducible and scalable deployment.
 *   **Advanced Full-Stack Architecture:** Architected and deployed a modular system with a **Flask/PyTorch API containerized on Hugging Face Spaces** and a **React/TypeScript frontend on Vercel**.
 *   **Complex Frontend Rendering:** The React UI dynamically renders bounding boxes and labels over the source image based on raw JSON coordinates received from the API, demonstrating advanced frontend data visualization.
