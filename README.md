@@ -49,7 +49,7 @@ These projects highlight my expertise in building complete, end-to-end AI applic
 A complete, end-to-end MLOps project that pairs a powerful serverless backend on AWS with a stunning, modern React and TypeScript frontend. This project showcases the ability to build and integrate a full-stack system, delivering a seamless user experience from data input to ML-powered prediction.
 
 #### Highlights:
-*   Achieved a regression model performance of **R² 0.63** on a challenging, real-world dataset.
+*   **Engineered an End-to-End Prediction Pipeline:** Handled the entire ML workflow from scratch, including feature engineering on a complex real-world dataset, training multiple regression models to achieve an **R² of 0.63**, and serializing the final model for production.
 *   **Engineered a zero-cost prediction infrastructure** using the **AWS Always Free Tier** (Lambda, API Gateway, SЗ), demonstrating cost-conscious cloud architecture.
 *   **Built a full CI/CD pipeline for the backend** using **AWS CodeBuild and GitHub** to automatically containerize and deploy the prediction model.
 *   **Architected a fully decoupled, full-stack system**, with a React/TypeScript frontend communicating with a serverless Python backend via a REST API.
@@ -85,7 +85,7 @@ React, TypeScript, Vite, Python, Flask, Sentence-Transformers, Docker, Render (A
 A complete, end-to-end AI application that combines a high-accuracy machine learning backend with a modern, interactive React frontend. This project demonstrates the full product lifecycle: from data engineering and model training to building a headless API and deploying a decoupled, full-stack system to the cloud.
 
 #### Key Achievements & Results:
-*   **High-Accuracy ML Model (92.7% Accuracy):** Developed a multi-class classification model to predict a processor's function, with performance lifted by **2.6%** through systematic hyperparameter tuning.
+*   **Custom-Trained Classification Model (92.7% Accuracy):** Engineered the complete pipeline from data engineering and feature selection to training and hyperparameter tuning a multi-class classification model, lifting final performance by **2.6%**.
 *   **Full-Stack Decoupled Architecture:** Architected and deployed a modular system with a **Flask API containerized on Render** and a **React/TypeScript frontend on Vercel**.
 
 #### Tech Stack:
