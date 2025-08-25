@@ -296,4 +296,4 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
   </a>
 </p>
 
-[![My Website](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ehsanul-ai-engineer.vercel.app)
+[![My Website](https://img.shields.io/badge/My_Website-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ehsanul-ai-engineer.vercel.app)
