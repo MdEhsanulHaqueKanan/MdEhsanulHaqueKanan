@@ -45,6 +45,27 @@ Python, Flask, LangChain, Ollama, ChromaDB, Sentence-Transformers, scikit-learn,
 
 These projects highlight my expertise in building complete, end-to-end AI applications, from a modern, interactive frontend to a robust, scalable backend infrastructure.
 
+### 🚗 AuraScanAI: Vehicle Damage Assessment System (Full-Stack with PyTorch & React)
+An advanced, end-to-end computer vision project that demonstrates a full MLOps lifecycle for damage assessment. This project was built from the ground up, starting from a research paper and culminating in a fully deployed, full-stack application. It features a sophisticated AI backend that serves a custom-trained Vision Transformer model and a stunning, data-driven React frontend.
+
+#### Highlights:
+*   **Custom-Trained Vision Transformer (ViT):** Engineered the complete training pipeline from scratch, including aggregating and processing over **15,500 images** from multiple datasets. Fine-tuned a `vit_base_patch16_224` model on a Kaggle GPU, achieving a best **validation loss of 248.27**, proving the model's ability to learn complex damage features.
+*   **Professional MLOps Workflow:** Utilized **Docker** for containerization and **Git LFS** to professionally manage the large (~343 MB) model file, ensuring a reproducible and scalable deployment.
+*   **Advanced Full-Stack Architecture:** Architected and deployed a modular system with a **Flask/PyTorch API containerized on Hugging Face Spaces** and a **React/TypeScript frontend on Vercel**.
+*   **Dynamic Frontend Visualization:** The React UI dynamically renders a bounding box over the primary damage area based on raw JSON coordinates received from the live API, demonstrating advanced frontend data visualization.
+*   **Business Logic Integration:** The backend includes a "Business Rule Engine" that post-processes the AI's raw output to provide user-friendly severity classifications and realistic, estimated repair cost ranges.
+
+#### Tech Stack:
+**Frontend:** React, TypeScript, Vite, Tailwind CSS, Vercel
+**Backend:** Python, Flask, PyTorch, `timm`, Docker, Git LFS, Hugging Face Spaces
+**AI Research:** Kaggle Notebooks, Pandas, OpenCV
+
+**[➡️ Live Demo](https://aurascan-ai.vercel.app/)** | **[📂 Data Exploration & Model Training Code](https://github.com/MdEhsanulHaqueKanan/aurascan-ai)** | **[📂 Frontend Code](https://github.com/MdEhsanulHaqueKanan/aurascan-frontend)** | **[📂 Backend API Code](https://github.com/MdEhsanulHaqueKanan/aurascan-api)** 
+
+*(Note: The backend API is on a free community tier and may "sleep" after inactivity. The first analysis might take 30-60 seconds to wake the server up.)*
+
+---
+
 ### ☁️ AWS Serverless + React Full-Stack YouTube Popularity Predictor 
 A complete, end-to-end MLOps project that pairs a powerful serverless backend on AWS with a stunning, modern React and TypeScript frontend. This project showcases the ability to build and integrate a full-stack system, delivering a seamless user experience from data input to ML-powered prediction.
 
