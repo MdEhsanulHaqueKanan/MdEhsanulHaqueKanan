@@ -1,5 +1,5 @@
 # Hi, I'm Ehsanul. 👋
-## End-to-End AI Engineer | LLMs, RAG, NLP, & MLOps
+## End-to-End AI Engineer | LLMs, RAG, NLP, CV & MLOps
 
 I build intelligent, data-driven applications from prototype to production. My passion lies in taking complex AI concepts—from Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) to traditional NLP—and engineering them into deployed, containerized, and scalable applications that solve real-world problems.
 
@@ -270,21 +270,21 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
   <tbody>
     <tr>
       <td width="150px" valign="middle"><strong>AI & LLM Tooling</strong></td>
-      <td width="800px" valign="middle">
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn" /></a>
-        <img src="https://img.shields.io/badge/LangChain-white?style=for-the-badge&logo=langchain" alt="LangChain" />
-        <img src="https://img.shields.io/badge/Ollama-grey?style=for-the-badge&logo=ollama" alt="Ollama" />
+      <td width-="800px" valign="middle">
+        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,scikitlearn" /></a>
+        <img src="https://img.shields.io/badge/Ultralytics-0052FF?style=for-the-badge" alt="Ultralytics"/>
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+        <img src="https://img.shields.io/badge/LangChain-FFFFFF?style=for-the-badge&logo=langchain" alt="LangChain" />
       </td>
     </tr>
     <tr>
-      <td valign="middle"><strong>Backend & UI</strong></td>
+      <td valign="middle"><strong>Backend</strong></td>
       <td valign="middle">
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,flask,gunicorn" /></a>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit" alt="Streamlit" />
+        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,flask" /></a>
       </td>
     </tr>
     <tr>
-      <td valign="middle"><strong>Frontend & UI</strong></td>
+      <td valign="middle"><strong>Frontend</strong></td>
       <td valign="middle">
         <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,vite,ts" /></a>
         <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
@@ -299,26 +299,20 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
       </td>
     </tr>
     <tr>
-      <td valign="middle"><strong>MLOps & Deployment</strong></td>
+      <td valign="middle"><strong>MLOps & CI/CD</strong></td>
       <td valign="middle">
         <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,git,github,githubactions" /></a>
-        <img src="https://img.shields.io/badge/MLflow-0A9BDB?style=for-the-badge&logo=mlflow" alt="MLflow" />
+        <img src="https://img.shields.io/badge/Git_LFS-111111?style=for-the-badge&logo=gitlfs&logoColor=white" alt="Git LFS" />
         <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
       </td>
     </tr>
-    <tr>
-      <td valign="middle"><strong>Cloud Platforms</strong></td>
+     <tr>
+      <td valign="middle"><strong>Cloud & Platforms</strong></td>
       <td valign="middle">
+        <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+        <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
         <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
-        <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" /> (Lambda, API Gateway, CodeBuild, ECS Fargate, S3, ECR, IAM, CloudWatch)
-      </td>
-    </tr>
-    <tr>
-      <td valign="middle"><strong>Remote Collaboration</strong></td>
-      <td valign="middle">
-        <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack" />
-        <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white" alt="Zoom" />
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git" /></a>
+        <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
       </td>
     </tr>
   </tbody>
