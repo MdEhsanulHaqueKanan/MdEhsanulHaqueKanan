@@ -22,6 +22,32 @@ I build intelligent, data-driven applications from prototype to production. My p
 
 This section highlights significant independent projects where I've deep-dived into a complex domain, applying advanced AI/ML and MLOps principles. It demonstrates my ability to conceptualize, research, and execute a comprehensive, industry-standard AI solution from the ground up.
 
+### 🚁 RescueVision: AI-Powered Search & Rescue Command Center
+
+An end-to-end, multi-modal AI system designed to accelerate search and rescue (SAR) operations. This full-stack application functions as a professional-grade **after-action review and intelligence gathering tool**, allowing operators to rapidly analyze hours of aerial drone footage and pinpoint critical events with pixel-perfect accuracy.
+
+The platform is built on a robust microservices architecture, fusing two powerful, custom-built AI capabilities into a single, intuitive interface: a high-performance **Computer Vision survivor detection pipeline** and a **Retrieval-Augmented Generation (RAG) Mission AI Assistant** grounded in official FEMA SAR manuals.
+
+#### **Key Achievements & Performance Metrics:**
+
+*   **Flawless UX for High-Stakes Analysis:** Architected a sophisticated "Event Reviewer" workflow. Operators upload a video, which is processed by the backend. The UI then populates a log of all detected events. Clicking an event jumps the video to the precise timestamp and draws a **static, pixel-perfect bounding box**, eliminating the ambiguity and latency of real-time trackers.
+*   **High-Performance Custom CV Model:** Engineered and trained a state-of-the-art **YOLOv8n object detection model** from scratch on a challenging aerial dataset of over **2,200 images**. Achieved exceptional performance metrics on the validation set, proving the model's accuracy in identifying small, difficult-to-detect human figures from above:
+    *   **Precision:** **85.3%**
+    *   **Recall:** **76.2%**
+    *   **mAP50:** **0.833**
+*   **Authoritative RAG-Powered AI Assistant:** Built a complete RAG pipeline using **LangChain** and **ChromaDB**. The system is grounded in a knowledge base of official **FEMA Search and Rescue manuals**, providing operators with accurate, reliable answers to complex procedural and safety questions.
+*   **End-to-End MLOps & System Design:** Executed the full project lifecycle, from data sourcing and model training on Kaggle GPUs to building two independent **Flask-based AI microservices** and integrating them with a stunning, responsive **React/TypeScript** frontend.
+
+#### **Key Skills Demonstrated:**
+End-to-End System Architecture, Computer Vision (YOLOv8, PyTorch, OpenCV), Retrieval-Augmented Generation (RAG), NLP (Sentence-Transformers), Full-Stack Development (React, TypeScript, Flask), MLOps (Data Curation, Model Training, API Development), Strategic Product Pivoting.
+
+#### **Tech Stack:**
+*   **AI Backend:** Python, PyTorch, Ultralytics, OpenCV, LangChain, ChromaDB, Flask
+*   **Frontend:** React, TypeScript, Vite, Tailwind CSS
+*   **AI Research:** Kaggle Notebooks, Pandas, Git LFS
+
+**[📂 Frontend Source Code](https://github.com/MdEhsanulHaqueKanan/RescueVision-Frontend)** | **[📂 AI Backend Source Code](https://github.com/MdEhsanulHaqueKanan/RescueVision-AI-Backend)**
+
 ### 🏭 Multimodal Knowledge-Enhanced Prescriptive Maintenance System
 An advanced, end-to-end **Prescriptive Maintenance (PdM)** system that demonstrates an intelligent, full-stack MLOps workflow. This project evolves beyond traditional prediction by integrating a **Retrieval-Augmented Generation (RAG)** pipeline, transforming it from a system that predicts *when* an asset will fail to one that prescribes *how to fix it* via a conversational AI assistant.
 
