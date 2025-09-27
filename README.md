@@ -67,6 +67,36 @@ Python, Flask, LangChain, Ollama, ChromaDB, Sentence-Transformers, scikit-learn,
 
 ---
 
+## 🏆 Flagship End-to-End AI Systems
+
+### 📊 AI-Powered Customer Feedback & Product Insight Platform 
+
+**An end-to-end, full-stack platform that transforms both text and visual customer feedback into a dynamic, queryable, and actionable business intelligence dashboard.** This project showcases a complete MLOps lifecycle, from data sourcing and custom model training to a fully interactive local application.
+
+The application ingests thousands of product reviews and allows users to upload their own documents (PDFs, DOCX). An advanced AI pipeline uses a Large Language Model to intelligently parse these documents and extract individual feedback points. The platform also features a custom-trained Computer Vision model to identify physical defects from user-submitted images, creating a truly multi-modal analysis tool.
+
+#### **Key Achievements & Features:**
+
+*   **Custom-Trained Apparel Defect Model:** Sourced a public dataset of apparel defects and trained a **YOLOv8s** object detection model from scratch on Kaggle GPUs to identify issues like `holes`, `stains`, and `tears`. The live analysis feature allows for real-time defect detection on user-uploaded images.
+*   **Advanced RAG Pipeline with Metadata Filtering:** Built a sophisticated Retrieval-Augmented Generation system. The backend uses `sentence-transformers` for embeddings, a persistent **ChromaDB** vector database, and a high-speed **Groq**-powered LLaMA 3 model to synthesize answers. The system supports metadata filtering to allow targeted queries against specific data sources.
+*   **Intelligent Document Processing with OCR:** The platform features a robust ingestion pipeline for `.docx` and `.pdf` files. It uses an LLM to perform **"intelligent chunking,"** automatically identifying and extracting individual feedback items. The system includes a **Tesseract OCR** fallback to process scanned, image-based PDFs.
+*   **Dynamic, Real-Time Analytics Dashboard:** The React frontend features a fully interactive dashboard with `recharts` visualizations. All charts and tables **automatically update in real-time** when a new document is ingested.
+*   **Professional, Decoupled MLOps Architecture:** Architected as a modern monorepo with a **React/TypeScript** frontend and a **Python/Flask** backend, designed for a complete local development and demonstration workflow.
+
+#### **Key Skills Demonstrated:**
+End-to-End System Architecture, **Multi-Modal AI Integration**, Computer Vision (YOLOv8), Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), NLP (Intelligent Chunking), Full-Stack Development (React, TypeScript, Flask), MLOps (Docker, Git LFS, Kaggle), Document Processing (OCR).
+
+#### **Tech Stack:**
+*   **AI Backend:** Python, Flask, Pandas, Groq (LLaMA 3), ChromaDB, Sentence-Transformers, Tesseract OCR, **Ultralytics (YOLOv8)**, Pillow
+*   **Frontend:** React, TypeScript, Vite, Tailwind CSS, Axios, Recharts, Framer Motion
+*   **DevOps & Data Science:** Conda, Git, Git LFS, Kaggle Notebooks
+
+**[📂 Source Code (Full Local Demo)](https://github.com/MdEhsanulHaqueKanan/ai-feedback-platform-local-demo)** 
+
+*(Note: This is a comprehensive local demo. Please follow the setup instructions in the repository's README to run.)*
+
+---
+
 ## ✨ Full-Stack MLOps Applications
 
 These projects highlight my expertise in building complete, end-to-end AI applications, from a modern, interactive frontend to a robust, scalable backend infrastructure.
@@ -270,10 +300,12 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
   <tbody>
     <tr>
       <td width="150px" valign="middle"><strong>AI & LLM Tooling</strong></td>
-      <td width-="800px" valign="middle">
+      <td width="800px" valign="middle">
         <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,scikitlearn" /></a>
         <img src="https://img.shields.io/badge/Ultralytics-0052FF?style=for-the-badge" alt="Ultralytics"/>
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+        <img src="https://img.shields.io/badge/Sentence--Transformers-2e86c1?style=for-the-badge" alt="Sentence-Transformers"/>
+        <img src="https://img.shields.io/badge/Groq-00C599?style=for-the-badge" alt="Groq"/>
+        <img src="https://img.shields.io/badge/ChromaDB-5B33F9?style=for-the-badge" alt="ChromaDB"/>
         <img src="https://img.shields.io/badge/LangChain-FFFFFF?style=for-the-badge&logo=langchain" alt="LangChain" />
       </td>
     </tr>
@@ -281,6 +313,7 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
       <td valign="middle"><strong>Backend</strong></td>
       <td valign="middle">
         <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=python,flask" /></a>
+        <img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white" alt="Gunicorn"/>
       </td>
     </tr>
     <tr>
@@ -291,11 +324,12 @@ My toolkit is built on a foundation of robust, industry-standard technologies to
       </td>
     </tr>
     <tr>
-      <td valign="middle"><strong>Data Science</strong></td>
+      <td valign="middle"><strong>Data & Document Processing</strong></td>
       <td valign="middle">
         <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
         <img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-        <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
+        <img src="https://img.shields.io/badge/Tesseract-5CB2E2?style=for-the-badge" alt="Tesseract OCR"/>
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
       </td>
     </tr>
     <tr>
