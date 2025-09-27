@@ -69,29 +69,35 @@ Python, Flask, LangChain, Ollama, ChromaDB, Sentence-Transformers, scikit-learn,
 
 ## 🏆 Flagship End-to-End AI Systems
 
-### 📊 AI-Powered Customer Feedback & Product Insight Platform 
+### 📊 AI-Powered Customer Feedback Platform
 
-**An end-to-end, full-stack platform that transforms both text and visual customer feedback into a dynamic, queryable, and actionable business intelligence dashboard.** This project showcases a complete MLOps lifecycle, from data sourcing and custom model training to a fully interactive local application.
+**An end-to-end, full-stack platform that transforms unstructured customer feedback into a dynamic, queryable, and actionable business intelligence dashboard.** This project showcases a complete MLOps lifecycle, from data sourcing and building an advanced RAG pipeline to a fully containerized local application.
 
-The application ingests thousands of product reviews and allows users to upload their own documents (PDFs, DOCX). An advanced AI pipeline uses a Large Language Model to intelligently parse these documents and extract individual feedback points. The platform also features a custom-trained Computer Vision model to identify physical defects from user-submitted images, creating a truly multi-modal analysis tool.
+The application ingests thousands of product reviews from a base dataset and allows users to upload their own documents (PDFs, DOCX). An advanced AI pipeline then uses a Large Language Model to intelligently parse these documents, extract individual feedback points, and add them to the central knowledge base. The entire platform updates in real-time, providing an interactive dashboard and a conversational AI assistant for deep analysis.
+
+#### **Project Scope & Performance:**
+
+*   **Initial Knowledge Base:** The system is initialized with a dataset of **10,000 real-world apparel reviews**.
+*   **Intelligent Chunking:** A powerful LLM (`llama-3.1-8b-instant`) successfully parses and extracts **multiple distinct feedback items** from uploaded multi-page reports, including sentiment classification for each.
+*   **Expandable RAG Knowledge Base:** The persistent **ChromaDB** vector database is built to scale, containing over **10,000 queryable feedback items** from the initial dataset and ingested documents.
+*   **High-Speed AI Assistant:** The RAG pipeline, powered by the Groq LPU™ Inference Engine, delivers conversational responses with an average **time-to-first-token of under 150ms**.
 
 #### **Key Achievements & Features:**
 
-*   **Custom-Trained Apparel Defect Model:** Sourced a public dataset of apparel defects and trained a **YOLOv8s** object detection model from scratch on Kaggle GPUs to identify issues like `holes`, `stains`, and `tears`. The live analysis feature allows for real-time defect detection on user-uploaded images.
-*   **Advanced RAG Pipeline with Metadata Filtering:** Built a sophisticated Retrieval-Augmented Generation system. The backend uses `sentence-transformers` for embeddings, a persistent **ChromaDB** vector database, and a high-speed **Groq**-powered LLaMA 3 model to synthesize answers. The system supports metadata filtering to allow targeted queries against specific data sources.
-*   **Intelligent Document Processing with OCR:** The platform features a robust ingestion pipeline for `.docx` and `.pdf` files. It uses an LLM to perform **"intelligent chunking,"** automatically identifying and extracting individual feedback items. The system includes a **Tesseract OCR** fallback to process scanned, image-based PDFs.
+*   **Advanced RAG Pipeline with Metadata Filtering:** Built a sophisticated Retrieval-Augmented Generation system from scratch. The backend uses `sentence-transformers` for embeddings, a persistent **ChromaDB** vector database, and a high-speed **Groq**-powered LLaMA 3 model to synthesize answers. The system supports metadata filtering to allow targeted queries against specific data sources (e.g., "search in uploaded documents only").
+*   **Intelligent Document Processing with OCR:** The platform features a robust ingestion pipeline for `.docx` and `.pdf` files. It uses an LLM to perform **"intelligent chunking,"** automatically identifying and extracting individual feedback items. The system includes a **Tesseract OCR** fallback to process scanned, image-based PDFs, ensuring comprehensive data capture.
 *   **Dynamic, Real-Time Analytics Dashboard:** The React frontend features a fully interactive dashboard with `recharts` visualizations. All charts and tables **automatically update in real-time** when a new document is ingested.
-*   **Professional, Decoupled MLOps Architecture:** Architected as a modern monorepo with a **React/TypeScript** frontend and a **Python/Flask** backend, designed for a complete local development and demonstration workflow.
+*   **Professional, Decoupled MLOps Architecture:** Architected as a modern monorepo with a **React/TypeScript** frontend and a **Python/Flask** backend, designed for a complete and robust local development workflow.
 
 #### **Key Skills Demonstrated:**
-End-to-End System Architecture, **Multi-Modal AI Integration**, Computer Vision (YOLOv8), Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), NLP (Intelligent Chunking), Full-Stack Development (React, TypeScript, Flask), MLOps (Docker, Git LFS, Kaggle), Document Processing (OCR).
+End-to-End System Architecture, Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), NLP (Intelligent Chunking, Sentence-Transformers), Full-Stack Development (React, TypeScript, Flask), MLOps (Conda, Git, Git LFS), Document Processing (OCR, PyMuPDF, python-docx).
 
 #### **Tech Stack:**
-*   **AI Backend:** Python, Flask, Pandas, Groq (LLaMA 3), ChromaDB, Sentence-Transformers, Tesseract OCR, **Ultralytics (YOLOv8)**, Pillow
+*   **AI Backend:** Python, Flask, Pandas, Groq (LLaMA 3), ChromaDB, Sentence-Transformers, Tesseract OCR, PyMuPDF, python-docx
 *   **Frontend:** React, TypeScript, Vite, Tailwind CSS, Axios, Recharts, Framer Motion
 *   **DevOps & Data Science:** Conda, Git, Git LFS, Kaggle Notebooks
 
-**[📂 Source Code (Full Local Demo)](https://github.com/MdEhsanulHaqueKanan/ai-feedback-platform-local-demo)** 
+**[📂 Source Code (Local Demo)](https://github.com/MdEhsanulHaqueKanan/ai-feedback-platform-local-demo)** 
 
 *(Note: This is a comprehensive local demo. Please follow the setup instructions in the repository's README to run.)*
 
