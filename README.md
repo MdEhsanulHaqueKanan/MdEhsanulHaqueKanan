@@ -69,7 +69,7 @@ Python, Flask, LangChain, Ollama, ChromaDB, Sentence-Transformers, scikit-learn,
 
 ## 🏆 Flagship End-to-End AI Systems
 
-### 📊 AI-Powered Customer Feedback Analysis Platform
+### 📊 AI-Powered Customer Feedback Platform
 
 **An end-to-end, full-stack platform that transforms unstructured customer feedback into a dynamic, queryable, and actionable business intelligence dashboard.** This project showcases a complete MLOps lifecycle, from data sourcing and building an advanced RAG pipeline to a fully containerized local application.
 
